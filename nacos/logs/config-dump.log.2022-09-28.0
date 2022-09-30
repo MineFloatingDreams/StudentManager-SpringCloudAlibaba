@@ -1,0 +1,34 @@
+2022-09-28 08:11:23,239 INFO [dump-all-ok] spring-cloud-modules-user-dev.yaml+DEFAULT_GROUP, 1664172169478, length=671, md5=402dae8fcdb56f0742490a2626eff6f6
+
+2022-09-28 08:11:23,240 INFO [dump-all-ok] spring-cloud-modules-code-dev.yaml+DEFAULT_GROUP, 1664174951567, length=363, md5=ed323594c8e6fbe75a77f1798108a66f
+
+2022-09-28 08:11:23,241 INFO [dump-all-ok] spring-cloud-gateway-dev.yaml+DEFAULT_GROUP, 1664268299858, length=1004, md5=84dc49743ecec9131e3bb67371b468ef
+
+2022-09-28 08:11:23,241 INFO [dump-all-ok] spring-cloud-modules-log-dev.yaml+DEFAULT_GROUP, 1664285733876, length=335, md5=98b8c5d4c03dac8d77aca58e7210870b
+
+2022-09-28 08:23:56,178 INFO [dump-task] add task. groupKey=spring-cloud-gateway-dev.yaml+DEFAULT_GROUP, taskKey=spring-cloud-gateway-dev.yaml+DEFAULT_GROUP++false+null
+
+2022-09-28 12:28:50,081 INFO [dump-task] add task. groupKey=spring-cloud-modules-student-dev.yaml+DEFAULT_GROUP, taskKey=spring-cloud-modules-student-dev.yaml+DEFAULT_GROUP++false+null
+
+2022-09-28 12:29:07,728 INFO [dump-task] add task. groupKey=spring-cloud-modules-student-dev.yaml+DEFAULT_GROUP, taskKey=spring-cloud-modules-student-dev.yaml+DEFAULT_GROUP++false+null
+
+2022-09-28 12:30:16,638 INFO [dump-task] add task. groupKey=spring-cloud-modules-student-dev.yaml+DEFAULT_GROUP, taskKey=spring-cloud-modules-student-dev.yaml+DEFAULT_GROUP++false+null
+
+2022-09-28 12:31:15,474 INFO [dump-task] add task. groupKey=spring-cloud-modules-student-dev.yaml+DEFAULT_GROUP, taskKey=spring-cloud-modules-student-dev.yaml+DEFAULT_GROUP++false+null
+
+2022-09-28 16:32:02,682 INFO [dump-task] add task. groupKey=spring-cloud-gateway-dev.yaml+DEFAULT_GROUP, taskKey=spring-cloud-gateway-dev.yaml+DEFAULT_GROUP++false+null
+
+2022-09-28 18:29:51,160 INFO [dump-task] add task. groupKey=spring-cloud-gateway-dev.yaml+DEFAULT_GROUP, taskKey=spring-cloud-gateway-dev.yaml+DEFAULT_GROUP++false+null
+
+2022-09-28 18:35:10,887 INFO [dump-task] add task. groupKey=spring-cloud-modules-student-dev.yaml+DEFAULT_GROUP, taskKey=spring-cloud-modules-student-dev.yaml+DEFAULT_GROUP++false+null
+
+2022-09-28 18:37:41,540 INFO [dump-task] add task. groupKey=spring-cloud-modules-student-dev.yaml+DEFAULT_GROUP, taskKey=spring-cloud-modules-student-dev.yaml+DEFAULT_GROUP++false+null
+
+2022-09-28 18:37:51,129 INFO [dump-task] add task. groupKey=spring-cloud-gateway-dev.yaml+DEFAULT_GROUP, taskKey=spring-cloud-gateway-dev.yaml+DEFAULT_GROUP++false+null
+
+2022-09-28 18:41:25,082 INFO [dump-task] add task. groupKey=spring-cloud-modules-student-dev.yaml+DEFAULT_GROUP, taskKey=spring-cloud-modules-student-dev.yaml+DEFAULT_GROUP++false+null
+
+2022-09-28 18:41:32,620 INFO [dump-task] add task. groupKey=spring-cloud-modules-log-dev.yaml+DEFAULT_GROUP, taskKey=spring-cloud-modules-log-dev.yaml+DEFAULT_GROUP++false+null
+
+2022-09-28 18:41:41,994 INFO [dump-task] add task. groupKey=spring-cloud-gateway-dev.yaml+DEFAULT_GROUP, taskKey=spring-cloud-gateway-dev.yaml+DEFAULT_GROUP++false+null
+

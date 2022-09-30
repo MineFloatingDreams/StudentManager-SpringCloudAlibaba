@@ -1,0 +1,136 @@
+2022-09-29 08:03:37,623 INFO SPI service [com.alipay.sofa.jraft.JRaftServiceFactory - com.alipay.sofa.jraft.core.DefaultJRaftServiceFactory] loading.
+
+2022-09-29 08:03:37,841 INFO SPI service [com.alipay.sofa.jraft.rpc.RaftRpcFactory - com.alipay.sofa.jraft.rpc.impl.GrpcRaftRpcFactory] loading.
+
+2022-09-29 08:03:38,342 INFO SPI service [com.alipay.sofa.jraft.util.timer.RaftTimerFactory - com.alipay.sofa.jraft.util.timer.DefaultRaftTimerFactory] loading.
+
+2022-09-29 08:03:38,352 INFO The number of active nodes increment to 1.
+
+2022-09-29 08:03:41,525 INFO Starts FSMCaller successfully.
+
+2022-09-29 08:03:41,548 INFO Loading snapshot, meta=last_included_index: 8
+last_included_term: 8
+peers: "192.168.111.1:7848"
+.
+
+2022-09-29 08:03:41,650 INFO Node <naming_persistent_service_v2/192.168.111.1:7848> onSnapshotLoadDone, last_included_index: 8
+last_included_term: 8
+peers: "192.168.111.1:7848"
+
+
+2022-09-29 08:03:41,651 INFO Node <naming_persistent_service_v2/192.168.111.1:7848> target priority value has changed from: 0, to: -1.
+
+2022-09-29 08:03:41,942 INFO Node <naming_persistent_service_v2/192.168.111.1:7848> init, term=8, lastLogId=LogId [index=8, term=8], conf=192.168.111.1:7848, oldConf=.
+
+2022-09-29 08:03:41,944 INFO Node <naming_persistent_service_v2/192.168.111.1:7848> start vote and grant vote self, term=8.
+
+2022-09-29 08:03:42,121 WARN Unable to fsync directory D:\wordspaces\IdeaProject\StudentManager-Alibaba\StudentManager-Alibaba\nacos\data\protocol\raft\naming_persistent_service_v2\meta-data on windows.
+
+2022-09-29 08:03:42,121 INFO Save raft meta, path=D:\wordspaces\IdeaProject\StudentManager-Alibaba\StudentManager-Alibaba\nacos\data\protocol\raft\naming_persistent_service_v2\meta-data, term=9, votedFor=192.168.111.1:7848, cost time=176 ms
+
+2022-09-29 08:03:42,122 INFO Node <naming_persistent_service_v2/192.168.111.1:7848> become leader of group, term=9, conf=192.168.111.1:7848, oldConf=.
+
+2022-09-29 08:03:42,125 INFO -Djraft.recyclers.maxCapacityPerThread: 4096.
+
+2022-09-29 08:03:42,128 WARN RPC server is not started in RaftGroupService.
+
+2022-09-29 08:03:42,128 INFO Start the RaftGroupService successfully.
+
+2022-09-29 08:03:42,144 INFO The number of active nodes increment to 2.
+
+2022-09-29 08:03:42,365 INFO onLeaderStart: term=9.
+
+2022-09-29 08:03:42,437 WARN Channel in TRANSIENT_FAILURE state: 192.168.111.1:7848.
+
+2022-09-29 08:03:42,437 WARN Channel in SHUTDOWN state: 192.168.111.1:7848.
+
+2022-09-29 08:03:43,451 ERROR Fail to connect 192.168.111.1:7848, remoting exception: java.util.concurrent.ExecutionException: io.grpc.StatusRuntimeException: DEADLINE_EXCEEDED: deadline exceeded after 0.586324600s. [buffered_nanos=597418000, waiting_for_connection].
+
+2022-09-29 08:03:43,451 ERROR Fail to connect peer 192.168.111.1:7848 to get leader for group naming_persistent_service_v2.
+
+2022-09-29 08:03:44,075 INFO Starts FSMCaller successfully.
+
+2022-09-29 08:03:44,075 INFO Loading snapshot, meta=last_included_index: 8
+last_included_term: 8
+peers: "192.168.111.1:7848"
+.
+
+2022-09-29 08:03:44,076 INFO Node <naming_instance_metadata/192.168.111.1:7848> onSnapshotLoadDone, last_included_index: 8
+last_included_term: 8
+peers: "192.168.111.1:7848"
+
+
+2022-09-29 08:03:44,077 INFO Node <naming_instance_metadata/192.168.111.1:7848> target priority value has changed from: 0, to: -1.
+
+2022-09-29 08:03:44,097 INFO Node <naming_instance_metadata/192.168.111.1:7848> init, term=8, lastLogId=LogId [index=8, term=8], conf=192.168.111.1:7848, oldConf=.
+
+2022-09-29 08:03:44,097 INFO Node <naming_instance_metadata/192.168.111.1:7848> start vote and grant vote self, term=8.
+
+2022-09-29 08:03:44,424 WARN Unable to fsync directory D:\wordspaces\IdeaProject\StudentManager-Alibaba\StudentManager-Alibaba\nacos\data\protocol\raft\naming_instance_metadata\meta-data on windows.
+
+2022-09-29 08:03:44,424 INFO Save raft meta, path=D:\wordspaces\IdeaProject\StudentManager-Alibaba\StudentManager-Alibaba\nacos\data\protocol\raft\naming_instance_metadata\meta-data, term=9, votedFor=192.168.111.1:7848, cost time=326 ms
+
+2022-09-29 08:03:44,424 INFO Node <naming_instance_metadata/192.168.111.1:7848> become leader of group, term=9, conf=192.168.111.1:7848, oldConf=.
+
+2022-09-29 08:03:44,424 WARN RPC server is not started in RaftGroupService.
+
+2022-09-29 08:03:44,424 INFO Start the RaftGroupService successfully.
+
+2022-09-29 08:03:44,625 INFO onLeaderStart: term=9.
+
+2022-09-29 08:03:44,625 INFO The number of active nodes increment to 3.
+
+2022-09-29 08:03:46,218 INFO Starts FSMCaller successfully.
+
+2022-09-29 08:03:46,280 INFO Loading snapshot, meta=last_included_index: 8
+last_included_term: 8
+peers: "192.168.111.1:7848"
+.
+
+2022-09-29 08:03:46,281 INFO Node <naming_service_metadata/192.168.111.1:7848> onSnapshotLoadDone, last_included_index: 8
+last_included_term: 8
+peers: "192.168.111.1:7848"
+
+
+2022-09-29 08:03:46,282 INFO Node <naming_service_metadata/192.168.111.1:7848> target priority value has changed from: 0, to: -1.
+
+2022-09-29 08:03:46,282 INFO Node <naming_service_metadata/192.168.111.1:7848> init, term=8, lastLogId=LogId [index=8, term=8], conf=192.168.111.1:7848, oldConf=.
+
+2022-09-29 08:03:46,283 INFO Node <naming_service_metadata/192.168.111.1:7848> start vote and grant vote self, term=8.
+
+2022-09-29 08:03:46,554 WARN Unable to fsync directory D:\wordspaces\IdeaProject\StudentManager-Alibaba\StudentManager-Alibaba\nacos\data\protocol\raft\naming_service_metadata\meta-data on windows.
+
+2022-09-29 08:03:46,554 INFO Save raft meta, path=D:\wordspaces\IdeaProject\StudentManager-Alibaba\StudentManager-Alibaba\nacos\data\protocol\raft\naming_service_metadata\meta-data, term=9, votedFor=192.168.111.1:7848, cost time=270 ms
+
+2022-09-29 08:03:46,554 INFO Node <naming_service_metadata/192.168.111.1:7848> become leader of group, term=9, conf=192.168.111.1:7848, oldConf=.
+
+2022-09-29 08:03:46,554 WARN RPC server is not started in RaftGroupService.
+
+2022-09-29 08:03:46,554 INFO Start the RaftGroupService successfully.
+
+2022-09-29 08:03:46,906 INFO onLeaderStart: term=9.
+
+2022-09-29 08:21:54,104 WARN Unable to fsync directory D:\wordspaces\IdeaProject\StudentManager-Alibaba\StudentManager-Alibaba\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\temp on windows.
+
+2022-09-29 08:21:54,104 INFO Deleting snapshot D:\wordspaces\IdeaProject\StudentManager-Alibaba\StudentManager-Alibaba\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\snapshot_9.
+
+2022-09-29 08:21:54,104 INFO Renaming D:\wordspaces\IdeaProject\StudentManager-Alibaba\StudentManager-Alibaba\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\temp to D:\wordspaces\IdeaProject\StudentManager-Alibaba\StudentManager-Alibaba\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\snapshot_9.
+
+2022-09-29 08:21:54,105 INFO Deleting snapshot D:\wordspaces\IdeaProject\StudentManager-Alibaba\StudentManager-Alibaba\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\snapshot_8.
+
+2022-09-29 08:23:39,062 WARN Unable to fsync directory D:\wordspaces\IdeaProject\StudentManager-Alibaba\StudentManager-Alibaba\nacos\data\protocol\raft\naming_service_metadata\snapshot\temp on windows.
+
+2022-09-29 08:23:39,062 INFO Deleting snapshot D:\wordspaces\IdeaProject\StudentManager-Alibaba\StudentManager-Alibaba\nacos\data\protocol\raft\naming_service_metadata\snapshot\snapshot_9.
+
+2022-09-29 08:23:39,062 INFO Renaming D:\wordspaces\IdeaProject\StudentManager-Alibaba\StudentManager-Alibaba\nacos\data\protocol\raft\naming_service_metadata\snapshot\temp to D:\wordspaces\IdeaProject\StudentManager-Alibaba\StudentManager-Alibaba\nacos\data\protocol\raft\naming_service_metadata\snapshot\snapshot_9.
+
+2022-09-29 08:23:39,062 INFO Deleting snapshot D:\wordspaces\IdeaProject\StudentManager-Alibaba\StudentManager-Alibaba\nacos\data\protocol\raft\naming_service_metadata\snapshot\snapshot_8.
+
+2022-09-29 08:25:25,143 WARN Unable to fsync directory D:\wordspaces\IdeaProject\StudentManager-Alibaba\StudentManager-Alibaba\nacos\data\protocol\raft\naming_instance_metadata\snapshot\temp on windows.
+
+2022-09-29 08:25:25,143 INFO Deleting snapshot D:\wordspaces\IdeaProject\StudentManager-Alibaba\StudentManager-Alibaba\nacos\data\protocol\raft\naming_instance_metadata\snapshot\snapshot_9.
+
+2022-09-29 08:25:25,143 INFO Renaming D:\wordspaces\IdeaProject\StudentManager-Alibaba\StudentManager-Alibaba\nacos\data\protocol\raft\naming_instance_metadata\snapshot\temp to D:\wordspaces\IdeaProject\StudentManager-Alibaba\StudentManager-Alibaba\nacos\data\protocol\raft\naming_instance_metadata\snapshot\snapshot_9.
+
+2022-09-29 08:25:25,144 INFO Deleting snapshot D:\wordspaces\IdeaProject\StudentManager-Alibaba\StudentManager-Alibaba\nacos\data\protocol\raft\naming_instance_metadata\snapshot\snapshot_8.
+

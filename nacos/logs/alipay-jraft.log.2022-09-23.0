@@ -1,0 +1,290 @@
+2022-09-23 15:06:42,940 INFO SPI service [com.alipay.sofa.jraft.JRaftServiceFactory - com.alipay.sofa.jraft.core.DefaultJRaftServiceFactory] loading.
+
+2022-09-23 15:06:43,035 INFO SPI service [com.alipay.sofa.jraft.rpc.RaftRpcFactory - com.alipay.sofa.jraft.rpc.impl.GrpcRaftRpcFactory] loading.
+
+2022-09-23 15:06:43,402 INFO SPI service [com.alipay.sofa.jraft.util.timer.RaftTimerFactory - com.alipay.sofa.jraft.util.timer.DefaultRaftTimerFactory] loading.
+
+2022-09-23 15:06:43,416 INFO The number of active nodes increment to 1.
+
+2022-09-23 15:06:44,198 INFO Starts FSMCaller successfully.
+
+2022-09-23 15:06:44,203 WARN No data for snapshot reader D:\wordspaces\IdeaProject\StudentManager-Alibaba\StudentManager-Alibaba\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot.
+
+2022-09-23 15:06:44,217 INFO Node <naming_persistent_service_v2/192.168.111.1:7848> init, term=0, lastLogId=LogId [index=0, term=0], conf=192.168.111.1:7848, oldConf=.
+
+2022-09-23 15:06:44,218 INFO Node <naming_persistent_service_v2/192.168.111.1:7848> start vote and grant vote self, term=0.
+
+2022-09-23 15:06:44,294 WARN Unable to fsync directory D:\wordspaces\IdeaProject\StudentManager-Alibaba\StudentManager-Alibaba\nacos\data\protocol\raft\naming_persistent_service_v2\meta-data on windows.
+
+2022-09-23 15:06:44,299 INFO Save raft meta, path=D:\wordspaces\IdeaProject\StudentManager-Alibaba\StudentManager-Alibaba\nacos\data\protocol\raft\naming_persistent_service_v2\meta-data, term=1, votedFor=192.168.111.1:7848, cost time=74 ms
+
+2022-09-23 15:06:44,299 INFO Node <naming_persistent_service_v2/192.168.111.1:7848> become leader of group, term=1, conf=192.168.111.1:7848, oldConf=.
+
+2022-09-23 15:06:44,302 INFO -Djraft.recyclers.maxCapacityPerThread: 4096.
+
+2022-09-23 15:06:44,304 WARN RPC server is not started in RaftGroupService.
+
+2022-09-23 15:06:44,304 INFO Start the RaftGroupService successfully.
+
+2022-09-23 15:06:44,328 INFO The number of active nodes increment to 2.
+
+2022-09-23 15:06:44,360 WARN Channel in TRANSIENT_FAILURE state: 192.168.111.1:7848.
+
+2022-09-23 15:06:44,360 WARN Channel in SHUTDOWN state: 192.168.111.1:7848.
+
+2022-09-23 15:06:44,453 INFO onLeaderStart: term=1.
+
+2022-09-23 15:06:45,034 INFO Starts FSMCaller successfully.
+
+2022-09-23 15:06:45,034 WARN No data for snapshot reader D:\wordspaces\IdeaProject\StudentManager-Alibaba\StudentManager-Alibaba\nacos\data\protocol\raft\naming_instance_metadata\snapshot.
+
+2022-09-23 15:06:45,035 INFO Node <naming_instance_metadata/192.168.111.1:7848> init, term=0, lastLogId=LogId [index=0, term=0], conf=192.168.111.1:7848, oldConf=.
+
+2022-09-23 15:06:45,036 INFO Node <naming_instance_metadata/192.168.111.1:7848> start vote and grant vote self, term=0.
+
+2022-09-23 15:06:45,092 WARN Unable to fsync directory D:\wordspaces\IdeaProject\StudentManager-Alibaba\StudentManager-Alibaba\nacos\data\protocol\raft\naming_instance_metadata\meta-data on windows.
+
+2022-09-23 15:06:45,092 INFO Save raft meta, path=D:\wordspaces\IdeaProject\StudentManager-Alibaba\StudentManager-Alibaba\nacos\data\protocol\raft\naming_instance_metadata\meta-data, term=1, votedFor=192.168.111.1:7848, cost time=56 ms
+
+2022-09-23 15:06:45,092 INFO Node <naming_instance_metadata/192.168.111.1:7848> become leader of group, term=1, conf=192.168.111.1:7848, oldConf=.
+
+2022-09-23 15:06:45,092 WARN RPC server is not started in RaftGroupService.
+
+2022-09-23 15:06:45,092 INFO Start the RaftGroupService successfully.
+
+2022-09-23 15:06:45,213 INFO onLeaderStart: term=1.
+
+2022-09-23 15:06:45,231 INFO The number of active nodes increment to 3.
+
+2022-09-23 15:06:45,845 INFO Starts FSMCaller successfully.
+
+2022-09-23 15:06:45,846 WARN No data for snapshot reader D:\wordspaces\IdeaProject\StudentManager-Alibaba\StudentManager-Alibaba\nacos\data\protocol\raft\naming_service_metadata\snapshot.
+
+2022-09-23 15:06:45,846 INFO Node <naming_service_metadata/192.168.111.1:7848> init, term=0, lastLogId=LogId [index=0, term=0], conf=192.168.111.1:7848, oldConf=.
+
+2022-09-23 15:06:45,847 INFO Node <naming_service_metadata/192.168.111.1:7848> start vote and grant vote self, term=0.
+
+2022-09-23 15:06:45,912 WARN Unable to fsync directory D:\wordspaces\IdeaProject\StudentManager-Alibaba\StudentManager-Alibaba\nacos\data\protocol\raft\naming_service_metadata\meta-data on windows.
+
+2022-09-23 15:06:45,913 INFO Save raft meta, path=D:\wordspaces\IdeaProject\StudentManager-Alibaba\StudentManager-Alibaba\nacos\data\protocol\raft\naming_service_metadata\meta-data, term=1, votedFor=192.168.111.1:7848, cost time=66 ms
+
+2022-09-23 15:06:45,913 INFO Node <naming_service_metadata/192.168.111.1:7848> become leader of group, term=1, conf=192.168.111.1:7848, oldConf=.
+
+2022-09-23 15:06:45,913 WARN RPC server is not started in RaftGroupService.
+
+2022-09-23 15:06:45,913 INFO Start the RaftGroupService successfully.
+
+2022-09-23 15:06:46,042 INFO onLeaderStart: term=1.
+
+2022-09-23 15:18:25,408 INFO Node <naming_service_metadata/192.168.111.1:7848> shutdown, currTerm=1 state=STATE_LEADER.
+
+2022-09-23 15:18:25,408 INFO Fail to find the next candidate.
+
+2022-09-23 15:18:25,408 INFO onLeaderStop: status=Status[ESHUTDOWN<1007>: Raft node is going to quit.].
+
+2022-09-23 15:18:25,529 WARN Unable to fsync directory D:\wordspaces\IdeaProject\StudentManager-Alibaba\StudentManager-Alibaba\nacos\data\protocol\raft\naming_service_metadata\meta-data on windows.
+
+2022-09-23 15:18:25,529 INFO Save raft meta, path=D:\wordspaces\IdeaProject\StudentManager-Alibaba\StudentManager-Alibaba\nacos\data\protocol\raft\naming_service_metadata\meta-data, term=1, votedFor=192.168.111.1:7848, cost time=121 ms
+
+2022-09-23 15:18:25,529 INFO Shutting down FSMCaller...
+
+2022-09-23 15:18:25,530 INFO onShutdown.
+
+2022-09-23 15:18:25,530 INFO ThreadPool is terminated: JRaft-RPC-Processor, com.alipay.sofa.jraft.util.MetricThreadPoolExecutor@25fb9d8e[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0].
+
+2022-09-23 15:18:25,531 INFO ThreadPool is terminated: JRaft-Node-ScheduleThreadPool, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@1a8050c9[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0].
+
+2022-09-23 15:18:25,531 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=5000, name='JRaft-ElectionTimer-<naming_service_metadata/192.168.111.1:7848>'}.
+
+2022-09-23 15:18:25,531 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=5000, name='JRaft-VoteTimer-<naming_service_metadata/192.168.111.1:7848>'}.
+
+2022-09-23 15:18:25,531 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=2500, name='JRaft-StepDownTimer-<naming_service_metadata/192.168.111.1:7848>'}.
+
+2022-09-23 15:18:25,531 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=1800000, name='JRaft-SnapshotTimer-<naming_service_metadata/192.168.111.1:7848>'}.
+
+2022-09-23 15:18:25,531 INFO Node <naming_service_metadata/192.168.111.1:7848> shutdown, currTerm=1 state=STATE_SHUTTING.
+
+2022-09-23 15:18:25,531 INFO Stop the RaftGroupService successfully.
+
+2022-09-23 15:18:25,531 INFO Node <naming_instance_metadata/192.168.111.1:7848> shutdown, currTerm=1 state=STATE_LEADER.
+
+2022-09-23 15:18:25,531 INFO The number of active nodes decrement to 2.
+
+2022-09-23 15:18:25,532 INFO Fail to find the next candidate.
+
+2022-09-23 15:18:25,532 INFO onLeaderStop: status=Status[ESHUTDOWN<1007>: Raft node is going to quit.].
+
+2022-09-23 15:18:25,579 WARN Unable to fsync directory D:\wordspaces\IdeaProject\StudentManager-Alibaba\StudentManager-Alibaba\nacos\data\protocol\raft\naming_instance_metadata\meta-data on windows.
+
+2022-09-23 15:18:25,579 INFO Save raft meta, path=D:\wordspaces\IdeaProject\StudentManager-Alibaba\StudentManager-Alibaba\nacos\data\protocol\raft\naming_instance_metadata\meta-data, term=1, votedFor=192.168.111.1:7848, cost time=47 ms
+
+2022-09-23 15:18:25,579 INFO Shutting down FSMCaller...
+
+2022-09-23 15:18:25,579 INFO onShutdown.
+
+2022-09-23 15:18:25,580 INFO ThreadPool is terminated: JRaft-RPC-Processor, com.alipay.sofa.jraft.util.MetricThreadPoolExecutor@5df55275[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0].
+
+2022-09-23 15:18:25,580 INFO ThreadPool is terminated: JRaft-Node-ScheduleThreadPool, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@3527fe51[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0].
+
+2022-09-23 15:18:25,580 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=5000, name='JRaft-ElectionTimer-<naming_instance_metadata/192.168.111.1:7848>'}.
+
+2022-09-23 15:18:25,580 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=5000, name='JRaft-VoteTimer-<naming_instance_metadata/192.168.111.1:7848>'}.
+
+2022-09-23 15:18:25,580 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=2500, name='JRaft-StepDownTimer-<naming_instance_metadata/192.168.111.1:7848>'}.
+
+2022-09-23 15:18:25,580 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=1800000, name='JRaft-SnapshotTimer-<naming_instance_metadata/192.168.111.1:7848>'}.
+
+2022-09-23 15:18:25,580 INFO Node <naming_instance_metadata/192.168.111.1:7848> shutdown, currTerm=1 state=STATE_SHUTTING.
+
+2022-09-23 15:18:25,580 INFO The number of active nodes decrement to 1.
+
+2022-09-23 15:18:25,580 INFO Stop the RaftGroupService successfully.
+
+2022-09-23 15:18:25,580 INFO Node <naming_persistent_service_v2/192.168.111.1:7848> shutdown, currTerm=1 state=STATE_LEADER.
+
+2022-09-23 15:18:25,580 INFO Fail to find the next candidate.
+
+2022-09-23 15:18:25,581 INFO onLeaderStop: status=Status[ESHUTDOWN<1007>: Raft node is going to quit.].
+
+2022-09-23 15:18:25,628 WARN Unable to fsync directory D:\wordspaces\IdeaProject\StudentManager-Alibaba\StudentManager-Alibaba\nacos\data\protocol\raft\naming_persistent_service_v2\meta-data on windows.
+
+2022-09-23 15:18:25,628 INFO Save raft meta, path=D:\wordspaces\IdeaProject\StudentManager-Alibaba\StudentManager-Alibaba\nacos\data\protocol\raft\naming_persistent_service_v2\meta-data, term=1, votedFor=192.168.111.1:7848, cost time=47 ms
+
+2022-09-23 15:18:25,629 INFO Shutting down FSMCaller...
+
+2022-09-23 15:18:25,629 INFO onShutdown.
+
+2022-09-23 15:18:25,629 INFO ThreadPool is terminated: JRaft-RPC-Processor, com.alipay.sofa.jraft.util.MetricThreadPoolExecutor@6acad8b[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0].
+
+2022-09-23 15:18:25,629 INFO ThreadPool is terminated: JRaft-Node-ScheduleThreadPool, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@71ea0227[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0].
+
+2022-09-23 15:18:25,629 INFO The number of active nodes decrement to 0.
+
+2022-09-23 15:18:25,631 INFO ThreadPool is terminated: JRaft-Global-ElectionTimer, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@518167fc[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 3].
+
+2022-09-23 15:18:25,631 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=5000, name='JRaft-ElectionTimer-<naming_persistent_service_v2/192.168.111.1:7848>'}.
+
+2022-09-23 15:18:25,631 INFO ThreadPool is terminated: JRaft-Global-VoteTimer, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@3e5bb0cc[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 3].
+
+2022-09-23 15:18:25,631 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=5000, name='JRaft-VoteTimer-<naming_persistent_service_v2/192.168.111.1:7848>'}.
+
+2022-09-23 15:18:25,632 INFO ThreadPool is terminated: JRaft-Global-StepDownTimer, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@2f4eae1b[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 836].
+
+2022-09-23 15:18:25,632 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=2500, name='JRaft-StepDownTimer-<naming_persistent_service_v2/192.168.111.1:7848>'}.
+
+2022-09-23 15:18:25,632 INFO ThreadPool is terminated: JRaft-Global-SnapshotTimer, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@37aada65[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0].
+
+2022-09-23 15:18:25,632 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=1800000, name='JRaft-SnapshotTimer-<naming_persistent_service_v2/192.168.111.1:7848>'}.
+
+2022-09-23 15:18:25,632 INFO Node <naming_persistent_service_v2/192.168.111.1:7848> shutdown, currTerm=1 state=STATE_SHUTTING.
+
+2022-09-23 15:18:25,632 INFO Stop the RaftGroupService successfully.
+
+2022-09-23 15:18:25,633 INFO Shutdown managed channel: 192.168.111.1:7848, ManagedChannelOrphanWrapper{delegate=ManagedChannelImpl{logId=10, target=192.168.111.1:7848}}.
+
+2022-09-23 15:18:25,637 INFO Connection disconnected: /192.168.111.1:60125
+
+2022-09-23 15:18:25,639 INFO ThreadPool is terminated: JRaft-RPC-Processor, com.alipay.sofa.jraft.util.MetricThreadPoolExecutor@26c2ec9d[Shutting down, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 484].
+
+2022-09-23 15:18:44,549 INFO SPI service [com.alipay.sofa.jraft.JRaftServiceFactory - com.alipay.sofa.jraft.core.DefaultJRaftServiceFactory] loading.
+
+2022-09-23 15:18:44,597 INFO SPI service [com.alipay.sofa.jraft.rpc.RaftRpcFactory - com.alipay.sofa.jraft.rpc.impl.GrpcRaftRpcFactory] loading.
+
+2022-09-23 15:18:44,713 INFO SPI service [com.alipay.sofa.jraft.util.timer.RaftTimerFactory - com.alipay.sofa.jraft.util.timer.DefaultRaftTimerFactory] loading.
+
+2022-09-23 15:18:44,717 INFO The number of active nodes increment to 1.
+
+2022-09-23 15:18:45,470 INFO Starts FSMCaller successfully.
+
+2022-09-23 15:18:45,477 WARN No data for snapshot reader D:\wordspaces\IdeaProject\StudentManager-Alibaba\StudentManager-Alibaba\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot.
+
+2022-09-23 15:18:45,477 INFO Node <naming_persistent_service_v2/192.168.111.1:7848> target priority value has changed from: 0, to: -1.
+
+2022-09-23 15:18:45,504 INFO Node <naming_persistent_service_v2/192.168.111.1:7848> init, term=1, lastLogId=LogId [index=1, term=1], conf=192.168.111.1:7848, oldConf=.
+
+2022-09-23 15:18:45,505 INFO Node <naming_persistent_service_v2/192.168.111.1:7848> start vote and grant vote self, term=1.
+
+2022-09-23 15:18:45,588 WARN Unable to fsync directory D:\wordspaces\IdeaProject\StudentManager-Alibaba\StudentManager-Alibaba\nacos\data\protocol\raft\naming_persistent_service_v2\meta-data on windows.
+
+2022-09-23 15:18:45,593 INFO Save raft meta, path=D:\wordspaces\IdeaProject\StudentManager-Alibaba\StudentManager-Alibaba\nacos\data\protocol\raft\naming_persistent_service_v2\meta-data, term=2, votedFor=192.168.111.1:7848, cost time=80 ms
+
+2022-09-23 15:18:45,593 INFO Node <naming_persistent_service_v2/192.168.111.1:7848> become leader of group, term=2, conf=192.168.111.1:7848, oldConf=.
+
+2022-09-23 15:18:45,595 INFO -Djraft.recyclers.maxCapacityPerThread: 4096.
+
+2022-09-23 15:18:45,597 WARN RPC server is not started in RaftGroupService.
+
+2022-09-23 15:18:45,597 INFO Start the RaftGroupService successfully.
+
+2022-09-23 15:18:45,609 INFO The number of active nodes increment to 2.
+
+2022-09-23 15:18:45,657 WARN Channel in TRANSIENT_FAILURE state: 192.168.111.1:7848.
+
+2022-09-23 15:18:45,657 WARN Channel in SHUTDOWN state: 192.168.111.1:7848.
+
+2022-09-23 15:18:45,734 INFO onLeaderStart: term=2.
+
+2022-09-23 15:18:46,478 INFO Starts FSMCaller successfully.
+
+2022-09-23 15:18:46,479 WARN No data for snapshot reader D:\wordspaces\IdeaProject\StudentManager-Alibaba\StudentManager-Alibaba\nacos\data\protocol\raft\naming_instance_metadata\snapshot.
+
+2022-09-23 15:18:46,479 INFO Node <naming_instance_metadata/192.168.111.1:7848> target priority value has changed from: 0, to: -1.
+
+2022-09-23 15:18:46,482 INFO Node <naming_instance_metadata/192.168.111.1:7848> init, term=1, lastLogId=LogId [index=1, term=1], conf=192.168.111.1:7848, oldConf=.
+
+2022-09-23 15:18:46,485 INFO Node <naming_instance_metadata/192.168.111.1:7848> start vote and grant vote self, term=1.
+
+2022-09-23 15:18:46,560 WARN Unable to fsync directory D:\wordspaces\IdeaProject\StudentManager-Alibaba\StudentManager-Alibaba\nacos\data\protocol\raft\naming_instance_metadata\meta-data on windows.
+
+2022-09-23 15:18:46,560 INFO Save raft meta, path=D:\wordspaces\IdeaProject\StudentManager-Alibaba\StudentManager-Alibaba\nacos\data\protocol\raft\naming_instance_metadata\meta-data, term=2, votedFor=192.168.111.1:7848, cost time=75 ms
+
+2022-09-23 15:18:46,560 INFO Node <naming_instance_metadata/192.168.111.1:7848> become leader of group, term=2, conf=192.168.111.1:7848, oldConf=.
+
+2022-09-23 15:18:46,562 WARN RPC server is not started in RaftGroupService.
+
+2022-09-23 15:18:46,562 INFO Start the RaftGroupService successfully.
+
+2022-09-23 15:18:46,581 INFO The number of active nodes increment to 3.
+
+2022-09-23 15:18:46,830 INFO onLeaderStart: term=2.
+
+2022-09-23 15:18:47,351 INFO Starts FSMCaller successfully.
+
+2022-09-23 15:18:47,351 WARN No data for snapshot reader D:\wordspaces\IdeaProject\StudentManager-Alibaba\StudentManager-Alibaba\nacos\data\protocol\raft\naming_service_metadata\snapshot.
+
+2022-09-23 15:18:47,352 INFO Node <naming_service_metadata/192.168.111.1:7848> target priority value has changed from: 0, to: -1.
+
+2022-09-23 15:18:47,353 INFO Node <naming_service_metadata/192.168.111.1:7848> init, term=1, lastLogId=LogId [index=1, term=1], conf=192.168.111.1:7848, oldConf=.
+
+2022-09-23 15:18:47,354 INFO Node <naming_service_metadata/192.168.111.1:7848> start vote and grant vote self, term=1.
+
+2022-09-23 15:18:47,422 WARN Unable to fsync directory D:\wordspaces\IdeaProject\StudentManager-Alibaba\StudentManager-Alibaba\nacos\data\protocol\raft\naming_service_metadata\meta-data on windows.
+
+2022-09-23 15:18:47,422 INFO Save raft meta, path=D:\wordspaces\IdeaProject\StudentManager-Alibaba\StudentManager-Alibaba\nacos\data\protocol\raft\naming_service_metadata\meta-data, term=2, votedFor=192.168.111.1:7848, cost time=68 ms
+
+2022-09-23 15:18:47,422 INFO Node <naming_service_metadata/192.168.111.1:7848> become leader of group, term=2, conf=192.168.111.1:7848, oldConf=.
+
+2022-09-23 15:18:47,423 WARN RPC server is not started in RaftGroupService.
+
+2022-09-23 15:18:47,423 INFO Start the RaftGroupService successfully.
+
+2022-09-23 15:18:47,540 INFO onLeaderStart: term=2.
+
+2022-09-23 15:39:20,279 WARN Unable to fsync directory D:\wordspaces\IdeaProject\StudentManager-Alibaba\StudentManager-Alibaba\nacos\data\protocol\raft\naming_service_metadata\snapshot\temp on windows.
+
+2022-09-23 15:39:20,279 INFO Deleting snapshot D:\wordspaces\IdeaProject\StudentManager-Alibaba\StudentManager-Alibaba\nacos\data\protocol\raft\naming_service_metadata\snapshot\snapshot_2.
+
+2022-09-23 15:39:20,279 INFO Renaming D:\wordspaces\IdeaProject\StudentManager-Alibaba\StudentManager-Alibaba\nacos\data\protocol\raft\naming_service_metadata\snapshot\temp to D:\wordspaces\IdeaProject\StudentManager-Alibaba\StudentManager-Alibaba\nacos\data\protocol\raft\naming_service_metadata\snapshot\snapshot_2.
+
+2022-09-23 15:40:16,618 WARN Unable to fsync directory D:\wordspaces\IdeaProject\StudentManager-Alibaba\StudentManager-Alibaba\nacos\data\protocol\raft\naming_instance_metadata\snapshot\temp on windows.
+
+2022-09-23 15:40:16,619 INFO Deleting snapshot D:\wordspaces\IdeaProject\StudentManager-Alibaba\StudentManager-Alibaba\nacos\data\protocol\raft\naming_instance_metadata\snapshot\snapshot_2.
+
+2022-09-23 15:40:16,619 INFO Renaming D:\wordspaces\IdeaProject\StudentManager-Alibaba\StudentManager-Alibaba\nacos\data\protocol\raft\naming_instance_metadata\snapshot\temp to D:\wordspaces\IdeaProject\StudentManager-Alibaba\StudentManager-Alibaba\nacos\data\protocol\raft\naming_instance_metadata\snapshot\snapshot_2.
+
+2022-09-23 15:46:12,688 WARN Unable to fsync directory D:\wordspaces\IdeaProject\StudentManager-Alibaba\StudentManager-Alibaba\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\temp on windows.
+
+2022-09-23 15:46:12,688 INFO Deleting snapshot D:\wordspaces\IdeaProject\StudentManager-Alibaba\StudentManager-Alibaba\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\snapshot_2.
+
+2022-09-23 15:46:12,688 INFO Renaming D:\wordspaces\IdeaProject\StudentManager-Alibaba\StudentManager-Alibaba\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\temp to D:\wordspaces\IdeaProject\StudentManager-Alibaba\StudentManager-Alibaba\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\snapshot_2.
+

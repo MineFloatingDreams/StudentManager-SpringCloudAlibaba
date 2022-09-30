@@ -1,0 +1,42 @@
+2022-09-23 15:06:42,919 INFO Initializes the Raft protocol, raft-config info : {}
+
+2022-09-23 15:06:43,163 INFO ========= The raft protocol is starting... =========
+
+2022-09-23 15:06:43,262 INFO ========= The raft protocol start finished... =========
+
+2022-09-23 15:06:43,363 INFO create raft group : naming_persistent_service_v2
+
+2022-09-23 15:06:44,328 INFO create raft group : naming_instance_metadata
+
+2022-09-23 15:06:44,454 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='192.168.111.1:7848', term=1, raftClusterInfo=[192.168.111.1:7848]}
+
+2022-09-23 15:06:45,213 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='192.168.111.1:7848', term=1, raftClusterInfo=[192.168.111.1:7848]}
+
+2022-09-23 15:06:45,230 INFO create raft group : naming_service_metadata
+
+2022-09-23 15:06:46,042 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='192.168.111.1:7848', term=1, raftClusterInfo=[192.168.111.1:7848]}
+
+2022-09-23 15:18:25,407 INFO shutdown jraft server
+
+2022-09-23 15:18:25,408 INFO ========= The raft protocol is starting to close =========
+
+2022-09-23 15:18:25,638 INFO ========= The raft protocol has been closed =========
+
+2022-09-23 15:18:44,522 INFO Initializes the Raft protocol, raft-config info : {}
+
+2022-09-23 15:18:44,662 INFO ========= The raft protocol is starting... =========
+
+2022-09-23 15:18:44,682 INFO ========= The raft protocol start finished... =========
+
+2022-09-23 15:18:44,700 INFO create raft group : naming_persistent_service_v2
+
+2022-09-23 15:18:45,609 INFO create raft group : naming_instance_metadata
+
+2022-09-23 15:18:45,735 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='192.168.111.1:7848', term=2, raftClusterInfo=[192.168.111.1:7848]}
+
+2022-09-23 15:18:46,581 INFO create raft group : naming_service_metadata
+
+2022-09-23 15:18:46,830 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='192.168.111.1:7848', term=2, raftClusterInfo=[192.168.111.1:7848]}
+
+2022-09-23 15:18:47,540 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='192.168.111.1:7848', term=2, raftClusterInfo=[192.168.111.1:7848]}
+

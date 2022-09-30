@@ -1,0 +1,82 @@
+2022-09-28 08:11:03,494 INFO notifyConnectTimeout:200
+
+2022-09-28 08:11:03,525 INFO notifySocketTimeout:8000
+
+2022-09-28 08:11:03,526 INFO isHealthCheck:true
+
+2022-09-28 08:11:03,526 INFO maxHealthCheckFailCount:12
+
+2022-09-28 08:11:03,526 INFO maxContent:10485760
+
+2022-09-28 08:11:14,073 INFO use local db service for init
+
+2022-09-28 08:11:17,057 WARN Lexical error at line 4, column 66.  Encountered: <EOF> after : "".
+
+2022-09-28 08:11:17,062 WARN Syntax error: Encountered "*" at line 1, column 1.
+
+2022-09-28 08:11:17,496 WARN Table/View 'CONFIG_INFO' already exists in Schema 'NACOS'.
+
+2022-09-28 08:11:18,012 WARN Table/View 'HIS_CONFIG_INFO' already exists in Schema 'NACOS'.
+
+2022-09-28 08:11:18,312 WARN Table/View 'CONFIG_INFO_BETA' already exists in Schema 'NACOS'.
+
+2022-09-28 08:11:18,573 WARN Table/View 'CONFIG_INFO_TAG' already exists in Schema 'NACOS'.
+
+2022-09-28 08:11:18,834 WARN Table/View 'CONFIG_INFO_AGGR' already exists in Schema 'NACOS'.
+
+2022-09-28 08:11:19,093 WARN Table/View 'APP_LIST' already exists in Schema 'NACOS'.
+
+2022-09-28 08:11:19,343 WARN Table/View 'APP_CONFIGDATA_RELATION_SUBS' already exists in Schema 'NACOS'.
+
+2022-09-28 08:11:19,592 WARN Table/View 'APP_CONFIGDATA_RELATION_PUBS' already exists in Schema 'NACOS'.
+
+2022-09-28 08:11:19,988 WARN Table/View 'CONFIG_TAGS_RELATION' already exists in Schema 'NACOS'.
+
+2022-09-28 08:11:20,426 WARN Table/View 'GROUP_CAPACITY' already exists in Schema 'NACOS'.
+
+2022-09-28 08:11:20,696 WARN Table/View 'TENANT_CAPACITY' already exists in Schema 'NACOS'.
+
+2022-09-28 08:11:20,945 WARN Table/View 'TENANT_INFO' already exists in Schema 'NACOS'.
+
+2022-09-28 08:11:21,250 WARN Table/View 'USERS' already exists in Schema 'NACOS'.
+
+2022-09-28 08:11:21,589 WARN Table/View 'ROLES' already exists in Schema 'NACOS'.
+
+2022-09-28 08:11:21,871 WARN Table/View 'PERMISSIONS' already exists in Schema 'NACOS'.
+
+2022-09-28 08:11:22,192 WARN The statement was aborted because it would have caused a duplicate key value in a unique or primary key constraint or unique index identified by 'SQL220923150639340' defined on 'USERS'.
+
+2022-09-28 08:11:22,282 WARN The statement was aborted because it would have caused a duplicate key value in a unique or primary key constraint or unique index identified by 'UK_USERNAME_ROLE' defined on 'ROLES'.
+
+2022-09-28 08:11:22,283 WARN Lexical error at line 4, column 13.  Encountered: "`" (96), after : "".
+
+2022-09-28 08:11:22,283 WARN Lexical error at line 1, column 13.  Encountered: "`" (96), after : "".
+
+2022-09-28 08:11:22,284 WARN Lexical error at line 1, column 13.  Encountered: "`" (96), after : "".
+
+2022-09-28 08:11:22,284 WARN Lexical error at line 1, column 13.  Encountered: "`" (96), after : "".
+
+2022-09-28 08:11:22,284 INFO use StandaloneDatabaseOperateImpl
+
+2022-09-28 08:11:22,695 WARN DumpService start
+
+2022-09-28 08:11:22,712 INFO start clear all config-info.
+
+2022-09-28 08:11:22,715 WARN clear all config-info failed.
+
+2022-09-28 08:11:22,715 WARN clear all config-info-tenant failed.
+
+2022-09-28 08:11:23,241 INFO [all-dump] 548774126621298688 / 548774126621298688
+
+2022-09-28 08:11:23,241 INFO start clear all config-info-beta.
+
+2022-09-28 08:11:23,241 WARN clear all config-info-beta failed.
+
+2022-09-28 08:11:23,241 WARN clear all config-info-beta-tenant failed.
+
+2022-09-28 08:11:23,365 INFO start clear all config-info-tag.
+
+2022-09-28 08:11:23,366 WARN clear all config-info-tag failed.
+
+2022-09-28 08:11:23,366 WARN clear all config-info-tag-tenant failed.
+

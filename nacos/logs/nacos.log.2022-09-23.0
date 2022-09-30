@@ -1,0 +1,252 @@
+2022-09-23 15:06:23,073 INFO Starting Nacos v2.1.1 using Java 1.8.0_181 on AiLove with PID 1488 (D:\wordspaces\IdeaProject\StudentManager-Alibaba\StudentManager-Alibaba\nacos\target\nacos-server.jar started by 11214 in D:\wordspaces\IdeaProject\StudentManager-Alibaba\StudentManager-Alibaba)
+
+2022-09-23 15:06:23,074 INFO The following 1 profile is active: "standalone"
+
+2022-09-23 15:06:26,680 INFO Tomcat initialized with port(s): 8848 (http)
+
+2022-09-23 15:06:26,690 INFO Starting service [Tomcat]
+
+2022-09-23 15:06:26,691 INFO Starting Servlet engine: [Apache Tomcat/9.0.63]
+
+2022-09-23 15:06:26,825 INFO Initializing Spring embedded WebApplicationContext
+
+2022-09-23 15:06:26,826 INFO Root WebApplicationContext: initialization completed in 3682 ms
+
+2022-09-23 15:06:28,668 INFO Nacos-related cluster resource initialization
+
+2022-09-23 15:06:28,674 INFO Load com.alibaba.nacos.core.ability.RemoteAbilityInitializer for ServerAbilityInitializer
+
+2022-09-23 15:06:28,674 INFO Load com.alibaba.nacos.naming.ability.NamingAbilityInitializer for ServerAbilityInitializer
+
+2022-09-23 15:06:28,678 INFO The cluster resource is initialized
+
+2022-09-23 15:06:28,711 INFO Get Distro config from env, DistroConfig{syncDelayMillis=1000, syncTimeoutMillis=3000, syncRetryDelayMillis=3000, verifyIntervalMillis=5000, verifyTimeoutMillis=3000, loadDataRetryDelayMillis=30000}
+
+2022-09-23 15:06:30,264 INFO HikariPool-1 - Starting...
+
+2022-09-23 15:06:30,266 WARN Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+
+2022-09-23 15:06:36,778 INFO HikariPool-1 - Driver does not support get/set network timeout for connections. (Feature not implemented: No details.)
+
+2022-09-23 15:06:36,780 INFO HikariPool-1 - Start completed.
+
+2022-09-23 15:06:46,644 INFO Adding welcome page: class path resource [static/index.html]
+
+2022-09-23 15:06:47,473 WARN You are asking Spring Security to ignore Ant [pattern='/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+
+2022-09-23 15:06:47,476 INFO Will not secure Ant [pattern='/**']
+
+2022-09-23 15:06:47,537 INFO Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3e2822, org.springframework.security.web.context.SecurityContextPersistenceFilter@5bda80bf, org.springframework.security.web.header.HeaderWriterFilter@63c5efee, org.springframework.security.web.csrf.CsrfFilter@3e2943ab, org.springframework.security.web.authentication.logout.LogoutFilter@4602c2a9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2ce86164, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@51df223b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@79e18e38, org.springframework.security.web.session.SessionManagementFilter@1c98290c, org.springframework.security.web.access.ExceptionTranslationFilter@9635fa]
+
+2022-09-23 15:06:47,584 INFO Exposing 1 endpoint(s) beneath base path '/actuator'
+
+2022-09-23 15:06:47,693 INFO Tomcat started on port(s): 8848 (http) with context path '/nacos'
+
+2022-09-23 15:06:47,762 INFO Started Nacos in 26.538 seconds (JVM running for 27.098)
+
+2022-09-23 15:06:47,763 INFO Nacos started successfully in stand alone mode. use embedded storage
+
+2022-09-23 15:06:48,036 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2022-09-23 15:06:48,037 INFO Initializing Servlet 'dispatcherServlet'
+
+2022-09-23 15:06:48,039 INFO Completed initialization in 2 ms
+
+2022-09-23 15:16:40,158 WARN clearConfigHistory start
+
+2022-09-23 15:16:40,159 WARN clearConfigHistory, getBeforeStamp:2022-08-24 15:16:40.0, pageSize:1000
+
+2022-09-23 15:16:40,189 INFO [capacityManagement] start correct usage
+
+2022-09-23 15:16:40,200 INFO [capacityManagement] end correct usage, cost: 0.009864s
+
+2022-09-23 15:18:24,789 WARN [ConfigServer-HttpClientManager] Start destroying NacosRestTemplate
+
+2022-09-23 15:18:24,789 WARN [NotifyCenter] Start destroying Publisher
+
+2022-09-23 15:18:24,789 WARN [HttpClientBeanHolder] Start destroying common HttpClient
+
+2022-09-23 15:18:24,789 WARN [WatchFileCenter] start close
+
+2022-09-23 15:18:24,789 WARN [ThreadPoolManager] Start destroying ThreadPool
+
+2022-09-23 15:18:24,789 WARN [NotifyCenter] Destruction of the end
+
+2022-09-23 15:18:24,789 WARN [WatchFileCenter] start to shutdown this watcher which is watch : D:\wordspaces\IdeaProject\StudentManager-Alibaba\StudentManager-Alibaba\nacos\data\tps
+
+2022-09-23 15:18:24,794 WARN [ConfigServer-HttpClientManager] Destruction of the end
+
+2022-09-23 15:18:24,794 WARN [HttpClientBeanHolder] Destruction of the end
+
+2022-09-23 15:18:24,794 WARN [WatchFileCenter] start to shutdown this watcher which is watch : D:\wordspaces\IdeaProject\StudentManager-Alibaba\StudentManager-Alibaba\nacos\conf
+
+2022-09-23 15:18:24,794 WARN [WatchFileCenter] start to shutdown this watcher which is watch : D:\wordspaces\IdeaProject\StudentManager-Alibaba\StudentManager-Alibaba\nacos\data\loader
+
+2022-09-23 15:18:24,794 WARN [WatchFileCenter] already closed
+
+2022-09-23 15:18:32,999 INFO Starting Nacos v2.1.1 using Java 1.8.0_181 on AiLove with PID 1080 (D:\wordspaces\IdeaProject\StudentManager-Alibaba\StudentManager-Alibaba\nacos\target\nacos-server.jar started by 11214 in D:\wordspaces\IdeaProject\StudentManager-Alibaba\StudentManager-Alibaba)
+
+2022-09-23 15:18:33,000 INFO The following 1 profile is active: "standalone"
+
+2022-09-23 15:18:37,157 INFO Tomcat initialized with port(s): 8848 (http)
+
+2022-09-23 15:18:37,167 INFO Starting service [Tomcat]
+
+2022-09-23 15:18:37,167 INFO Starting Servlet engine: [Apache Tomcat/9.0.63]
+
+2022-09-23 15:18:37,254 INFO Initializing Spring embedded WebApplicationContext
+
+2022-09-23 15:18:37,254 INFO Root WebApplicationContext: initialization completed in 4044 ms
+
+2022-09-23 15:18:38,162 INFO Nacos-related cluster resource initialization
+
+2022-09-23 15:18:38,167 INFO Load com.alibaba.nacos.core.ability.RemoteAbilityInitializer for ServerAbilityInitializer
+
+2022-09-23 15:18:38,168 INFO Load com.alibaba.nacos.naming.ability.NamingAbilityInitializer for ServerAbilityInitializer
+
+2022-09-23 15:18:38,170 INFO The cluster resource is initialized
+
+2022-09-23 15:18:38,193 INFO Get Distro config from env, DistroConfig{syncDelayMillis=1000, syncTimeoutMillis=3000, syncRetryDelayMillis=3000, verifyIntervalMillis=5000, verifyTimeoutMillis=3000, loadDataRetryDelayMillis=30000}
+
+2022-09-23 15:18:38,785 INFO HikariPool-1 - Starting...
+
+2022-09-23 15:18:38,788 WARN Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+
+2022-09-23 15:18:40,918 INFO HikariPool-1 - Driver does not support get/set network timeout for connections. (Feature not implemented: No details.)
+
+2022-09-23 15:18:40,921 INFO HikariPool-1 - Start completed.
+
+2022-09-23 15:18:48,172 INFO Adding welcome page: class path resource [static/index.html]
+
+2022-09-23 15:18:48,593 WARN You are asking Spring Security to ignore Ant [pattern='/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+
+2022-09-23 15:18:48,595 INFO Will not secure Ant [pattern='/**']
+
+2022-09-23 15:18:48,651 INFO Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6e16b8b5, org.springframework.security.web.context.SecurityContextPersistenceFilter@7e985ce9, org.springframework.security.web.header.HeaderWriterFilter@eb6449b, org.springframework.security.web.csrf.CsrfFilter@3185fa6b, org.springframework.security.web.authentication.logout.LogoutFilter@1d1f7216, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@410ae9a3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@d5ae57e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@43b4fe19, org.springframework.security.web.session.SessionManagementFilter@180e6ac4, org.springframework.security.web.access.ExceptionTranslationFilter@274872f8]
+
+2022-09-23 15:18:48,679 INFO Exposing 1 endpoint(s) beneath base path '/actuator'
+
+2022-09-23 15:18:48,732 INFO Tomcat started on port(s): 8848 (http) with context path '/nacos'
+
+2022-09-23 15:18:48,760 INFO Started Nacos in 17.694 seconds (JVM running for 18.587)
+
+2022-09-23 15:18:48,761 INFO Nacos started successfully in stand alone mode. use embedded storage
+
+2022-09-23 15:18:51,306 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2022-09-23 15:18:51,306 INFO Initializing Servlet 'dispatcherServlet'
+
+2022-09-23 15:18:51,307 INFO Completed initialization in 1 ms
+
+2022-09-23 15:28:42,343 WARN clearConfigHistory start
+
+2022-09-23 15:28:42,343 WARN clearConfigHistory, getBeforeStamp:2022-08-24 15:28:42.0, pageSize:1000
+
+2022-09-23 15:28:42,374 INFO [capacityManagement] start correct usage
+
+2022-09-23 15:28:42,439 INFO [capacityManagement] end correct usage, cost: 0.0082318s
+
+2022-09-23 15:38:42,367 WARN clearConfigHistory start
+
+2022-09-23 15:38:42,368 WARN clearConfigHistory, getBeforeStamp:2022-08-24 15:38:42.0, pageSize:1000
+
+2022-09-23 15:38:42,447 INFO [capacityManagement] start correct usage
+
+2022-09-23 15:38:42,452 INFO [capacityManagement] end correct usage, cost: 0.00472s
+
+2022-09-23 15:48:42,384 WARN clearConfigHistory start
+
+2022-09-23 15:48:42,384 WARN clearConfigHistory, getBeforeStamp:2022-08-24 15:48:42.0, pageSize:1000
+
+2022-09-23 15:48:42,463 INFO [capacityManagement] start correct usage
+
+2022-09-23 15:48:42,464 INFO [capacityManagement] end correct usage, cost: 8.578E-4s
+
+2022-09-23 15:58:42,388 WARN clearConfigHistory start
+
+2022-09-23 15:58:42,388 WARN clearConfigHistory, getBeforeStamp:2022-08-24 15:58:42.0, pageSize:1000
+
+2022-09-23 15:58:42,467 INFO [capacityManagement] start correct usage
+
+2022-09-23 15:58:42,467 INFO [capacityManagement] end correct usage, cost: 5.834E-4s
+
+2022-09-23 16:08:42,392 WARN clearConfigHistory start
+
+2022-09-23 16:08:42,392 WARN clearConfigHistory, getBeforeStamp:2022-08-24 16:08:42.0, pageSize:1000
+
+2022-09-23 16:08:42,470 INFO [capacityManagement] start correct usage
+
+2022-09-23 16:08:42,470 INFO [capacityManagement] end correct usage, cost: 4.694E-4s
+
+2022-09-23 16:18:42,407 WARN clearConfigHistory start
+
+2022-09-23 16:18:42,408 WARN clearConfigHistory, getBeforeStamp:2022-08-24 16:18:42.0, pageSize:1000
+
+2022-09-23 16:18:42,484 INFO [capacityManagement] start correct usage
+
+2022-09-23 16:18:42,485 INFO [capacityManagement] end correct usage, cost: 9.331E-4s
+
+2022-09-23 16:28:42,419 WARN clearConfigHistory start
+
+2022-09-23 16:28:42,419 WARN clearConfigHistory, getBeforeStamp:2022-08-24 16:28:42.0, pageSize:1000
+
+2022-09-23 16:28:42,497 INFO [capacityManagement] start correct usage
+
+2022-09-23 16:28:42,497 INFO [capacityManagement] end correct usage, cost: 4.556E-4s
+
+2022-09-23 16:38:42,420 WARN clearConfigHistory start
+
+2022-09-23 16:38:42,420 WARN clearConfigHistory, getBeforeStamp:2022-08-24 16:38:42.0, pageSize:1000
+
+2022-09-23 16:38:42,513 INFO [capacityManagement] start correct usage
+
+2022-09-23 16:38:42,513 INFO [capacityManagement] end correct usage, cost: 4.11E-4s
+
+2022-09-23 16:47:04,144 WARN There are no [com.alibaba.nacos.common.trace.event.naming.SubscribeServiceTraceEvent] publishers for this event, please register
+
+2022-09-23 16:47:04,145 INFO Get Push config from env, PushConfig{pushTaskDelay=500, pushTaskTimeout=5000, pushTaskRetryDelay=1000}
+
+2022-09-23 16:47:04,644 WARN There are no [com.alibaba.nacos.common.trace.event.naming.UnsubscribeServiceTraceEvent] publishers for this event, please register
+
+2022-09-23 16:47:04,690 WARN There are no [com.alibaba.nacos.common.trace.event.naming.PushServiceTraceEvent] publishers for this event, please register
+
+2022-09-23 16:48:42,423 WARN clearConfigHistory start
+
+2022-09-23 16:48:42,423 WARN clearConfigHistory, getBeforeStamp:2022-08-24 16:48:42.0, pageSize:1000
+
+2022-09-23 16:48:42,517 INFO [capacityManagement] start correct usage
+
+2022-09-23 16:48:42,518 INFO [capacityManagement] end correct usage, cost: 0.0013179s
+
+2022-09-23 16:50:39,742 WARN There are no [com.alibaba.nacos.common.trace.event.naming.SubscribeServiceTraceEvent] publishers for this event, please register
+
+2022-09-23 16:50:40,157 WARN There are no [com.alibaba.nacos.common.trace.event.naming.UnsubscribeServiceTraceEvent] publishers for this event, please register
+
+2022-09-23 16:50:40,267 WARN There are no [com.alibaba.nacos.common.trace.event.naming.PushServiceTraceEvent] publishers for this event, please register
+
+2022-09-23 16:58:42,438 WARN clearConfigHistory start
+
+2022-09-23 16:58:42,438 WARN clearConfigHistory, getBeforeStamp:2022-08-24 16:58:42.0, pageSize:1000
+
+2022-09-23 16:58:42,530 INFO [capacityManagement] start correct usage
+
+2022-09-23 16:58:42,530 INFO [capacityManagement] end correct usage, cost: 4.763E-4s
+
+2022-09-23 16:59:10,215 WARN There are no [com.alibaba.nacos.common.trace.event.naming.SubscribeServiceTraceEvent] publishers for this event, please register
+
+2022-09-23 16:59:10,608 WARN There are no [com.alibaba.nacos.common.trace.event.naming.UnsubscribeServiceTraceEvent] publishers for this event, please register
+
+2022-09-23 16:59:10,765 WARN There are no [com.alibaba.nacos.common.trace.event.naming.PushServiceTraceEvent] publishers for this event, please register
+
+2022-09-23 17:00:10,586 WARN There are no [com.alibaba.nacos.common.trace.event.naming.SubscribeServiceTraceEvent] publishers for this event, please register
+
+2022-09-23 17:00:11,047 WARN There are no [com.alibaba.nacos.common.trace.event.naming.UnsubscribeServiceTraceEvent] publishers for this event, please register
+
+2022-09-23 17:00:11,187 WARN There are no [com.alibaba.nacos.common.trace.event.naming.PushServiceTraceEvent] publishers for this event, please register
+
+2022-09-23 17:01:02,805 WARN There are no [com.alibaba.nacos.common.trace.event.naming.SubscribeServiceTraceEvent] publishers for this event, please register
+
+2022-09-23 17:01:03,270 WARN There are no [com.alibaba.nacos.common.trace.event.naming.UnsubscribeServiceTraceEvent] publishers for this event, please register
+
+2022-09-23 17:01:03,385 WARN There are no [com.alibaba.nacos.common.trace.event.naming.PushServiceTraceEvent] publishers for this event, please register
+

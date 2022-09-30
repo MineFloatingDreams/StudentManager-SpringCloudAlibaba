@@ -1,0 +1,10 @@
+2022-09-29 08:03:30,412 INFO [dump-all-ok] spring-cloud-modules-user-dev.yaml+DEFAULT_GROUP, 1664172169478, length=671, md5=402dae8fcdb56f0742490a2626eff6f6
+
+2022-09-29 08:03:30,414 INFO [dump-all-ok] spring-cloud-modules-code-dev.yaml+DEFAULT_GROUP, 1664174951567, length=363, md5=ed323594c8e6fbe75a77f1798108a66f
+
+2022-09-29 08:03:30,414 INFO [dump-all-ok] spring-cloud-gateway-dev.yaml+DEFAULT_GROUP, 1664361701982, length=1433, md5=2ba7098fc7cc3bb1a2c531f397bf7e91
+
+2022-09-29 08:03:30,414 INFO [dump-all-ok] spring-cloud-modules-log-dev.yaml+DEFAULT_GROUP, 1664361692617, length=285, md5=df1ac79edb843f932bb73ec434f3aa8d
+
+2022-09-29 08:03:30,415 INFO [dump-all-ok] spring-cloud-modules-student-dev.yaml+DEFAULT_GROUP, 1664361685076, length=283, md5=0a140209848c2192e6be5f4dfb03182a
+

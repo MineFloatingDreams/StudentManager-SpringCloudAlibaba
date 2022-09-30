@@ -1,0 +1,1240 @@
+2022-09-27 08:00:31,836 INFO Initializes the Raft protocol, raft-config info : {}
+
+2022-09-27 08:00:31,988 INFO ========= The raft protocol is starting... =========
+
+2022-09-27 08:00:32,032 INFO ========= The raft protocol start finished... =========
+
+2022-09-27 08:00:32,057 INFO create raft group : naming_persistent_service_v2
+
+2022-09-27 08:00:33,393 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='null', term=null, raftClusterInfo=[192.168.111.1:7848]}
+
+2022-09-27 08:00:33,662 INFO create raft group : naming_instance_metadata
+
+2022-09-27 08:00:33,796 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='192.168.111.1:7848', term=5, raftClusterInfo=[192.168.111.1:7848]}
+
+2022-09-27 08:00:34,701 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='null', term=null, raftClusterInfo=[192.168.111.1:7848]}
+
+2022-09-27 08:00:35,109 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='192.168.111.1:7848', term=5, raftClusterInfo=[192.168.111.1:7848]}
+
+2022-09-27 08:00:35,109 INFO create raft group : naming_service_metadata
+
+2022-09-27 08:00:35,109 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_persistent_service_v2
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:631)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:524)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2022-09-27 08:00:35,935 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='null', term=null, raftClusterInfo=[192.168.111.1:7848]}
+
+2022-09-27 08:00:36,301 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='192.168.111.1:7848', term=5, raftClusterInfo=[192.168.111.1:7848]}
+
+2022-09-27 19:14:06,258 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception]
+
+2022-09-27 19:14:06,258 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception]
+
+2022-09-27 19:14:06,258 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception]
+
+2022-09-27 19:14:06,263 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,263 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,263 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,263 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,263 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,263 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,264 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,264 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,264 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,264 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,264 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,264 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,264 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,264 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,264 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,264 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,264 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,264 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,264 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,264 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,264 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,264 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,265 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,265 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,265 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,265 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,265 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,265 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,265 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,265 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,266 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,266 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,266 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,266 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,266 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,266 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,266 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,266 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,266 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,266 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,266 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,266 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,266 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,266 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,267 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,267 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,267 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,267 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,267 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,267 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,267 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,267 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,267 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,267 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,267 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,267 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,267 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,267 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,267 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,267 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,267 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,267 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,267 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,268 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,268 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,268 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,268 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,268 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,268 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,268 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,268 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,268 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,268 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,268 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,268 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,268 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,268 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,268 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,268 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,268 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,268 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,268 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,268 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,269 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,269 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,270 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,270 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,270 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,270 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,270 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,270 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,270 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,271 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,271 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,271 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,271 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,276 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception]
+
+2022-09-27 19:14:06,276 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception]
+
+2022-09-27 19:14:06,276 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,276 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,277 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,277 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,277 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,277 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,277 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,277 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,277 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,277 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,277 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,277 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,277 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,277 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,277 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,277 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,277 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,278 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,278 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,278 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,278 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,279 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,279 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,279 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,281 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,281 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception]
+
+2022-09-27 19:14:06,286 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception]
+
+2022-09-27 19:14:06,286 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception]
+
+2022-09-27 19:14:06,286 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception]
+
+2022-09-27 19:14:06,286 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception]
+
+2022-09-27 19:14:06,286 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,286 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,286 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,287 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,287 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception]
+
+2022-09-27 19:14:06,287 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,287 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,287 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,287 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,288 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,288 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,288 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,288 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,289 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,289 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,289 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,289 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,289 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,289 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,289 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,289 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,290 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,290 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,292 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,292 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception]
+
+2022-09-27 19:14:06,292 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,292 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception]
+
+2022-09-27 19:14:06,292 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,292 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,292 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,292 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,292 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,292 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,292 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,292 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,293 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,294 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,294 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,294 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,294 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,294 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,294 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,294 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,294 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,294 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,298 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,298 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,298 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception]
+
+2022-09-27 19:14:06,298 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,298 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,298 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,298 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,298 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,298 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,298 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,299 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,299 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,308 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,308 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,308 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,308 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,308 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,308 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,311 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception]
+
+2022-09-27 19:14:06,311 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception]
+
+2022-09-27 19:14:06,311 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,311 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,311 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,312 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,312 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,312 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,312 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,312 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,312 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,312 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,312 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,312 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,312 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,312 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,312 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,312 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,312 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,312 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,312 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,312 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,312 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,312 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,313 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,313 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,313 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,314 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,314 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,314 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,314 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,314 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,314 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,314 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,314 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,314 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,314 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,314 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,314 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,316 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,317 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,322 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception]
+
+2022-09-27 19:14:06,322 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception]
+
+2022-09-27 19:14:06,323 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,323 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception]
+
+2022-09-27 19:14:06,324 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception]
+
+2022-09-27 19:14:06,324 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception]
+
+2022-09-27 19:14:06,324 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,324 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,324 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,324 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,324 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,324 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,324 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,324 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,324 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,324 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,324 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,324 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,324 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,324 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,324 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,324 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,324 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,324 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,325 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,325 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,325 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,326 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,326 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,326 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,326 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,326 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,327 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,330 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception]
+
+2022-09-27 19:14:06,330 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception]
+
+2022-09-27 19:14:06,330 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,330 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,330 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,330 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,330 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,331 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,332 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,332 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,332 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,332 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,334 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,344 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception]
+
+2022-09-27 19:14:06,344 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception]
+
+2022-09-27 19:14:06,344 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,345 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,345 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,345 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,345 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,345 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,345 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,345 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,345 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,345 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,345 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,345 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,345 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,345 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,345 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,345 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,345 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,345 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,345 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,345 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,345 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,345 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,345 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,346 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,346 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,346 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,346 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,347 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,347 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,347 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,347 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,347 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,347 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,347 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,347 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,354 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,354 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,355 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,355 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,355 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,355 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,356 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,356 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,356 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,356 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,356 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,356 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,356 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,356 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,356 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,356 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,356 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,356 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,356 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,356 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,356 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,357 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,357 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,357 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,357 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,357 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,357 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,357 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,357 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,357 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,357 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,357 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,357 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,357 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,358 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,358 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,358 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,358 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,359 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,359 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,359 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,359 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,363 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception]
+
+2022-09-27 19:14:06,363 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception]
+
+2022-09-27 19:14:06,363 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,363 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,363 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,363 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,363 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,363 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,363 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,363 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,363 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,363 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,363 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,365 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,365 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,365 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,365 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,365 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,365 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,365 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,372 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception]
+
+2022-09-27 19:14:06,372 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,372 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,372 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,372 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,372 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,372 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,372 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,372 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,372 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,373 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,373 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,373 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,373 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,373 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,374 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,374 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,374 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,374 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,374 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,374 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,374 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,374 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,374 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,377 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,380 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,380 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception]
+
+2022-09-27 19:14:06,380 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,381 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,381 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,381 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,381 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,381 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,382 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,382 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,382 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,382 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,383 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,383 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,386 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,386 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,389 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception]
+
+2022-09-27 19:14:06,389 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception]
+
+2022-09-27 19:14:06,389 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,389 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,389 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,389 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,389 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,389 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,389 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,389 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,389 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,389 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,389 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,389 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,389 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,390 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,390 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,390 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,390 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,390 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,390 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,390 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,390 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,390 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,390 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,390 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,397 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception]
+
+2022-09-27 19:14:06,397 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,397 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,397 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,397 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,397 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,397 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,397 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,398 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,398 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,398 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,398 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,398 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,398 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,398 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,398 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,398 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,398 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,399 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,399 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,399 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,399 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,399 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,399 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,399 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,399 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,399 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,399 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,399 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,399 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,399 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,399 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,399 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,399 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,399 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,399 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,400 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,400 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,400 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,400 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,400 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,400 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,400 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,400 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,400 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,400 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,400 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,400 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,400 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,400 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,400 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,405 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception]
+
+2022-09-27 19:14:06,407 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception]
+
+2022-09-27 19:14:06,410 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception]
+
+2022-09-27 19:14:06,410 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception]
+
+2022-09-27 19:14:06,410 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,410 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,410 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,410 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,410 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,410 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,410 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,410 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,411 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,411 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,411 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,411 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,411 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,411 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,411 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,411 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,411 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,411 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,411 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,411 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,411 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,411 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,411 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,411 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,412 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,412 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,412 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,412 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,415 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,423 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception]
+
+2022-09-27 19:14:06,423 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception]
+
+2022-09-27 19:14:06,423 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,423 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,423 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,423 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,423 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,423 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,423 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,423 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,423 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,423 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,423 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,423 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,424 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,424 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,424 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,424 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,424 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,424 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,424 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,424 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,424 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,424 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,424 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,424 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,424 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,424 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,424 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,424 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,424 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,424 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,585 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,585 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception]
+
+2022-09-27 19:14:06,586 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,586 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,586 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,586 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.111.1:7848]
+
+2022-09-27 19:14:06,591 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception]
+
+2022-09-27 19:54:08,617 INFO Initializes the Raft protocol, raft-config info : {}
+
+2022-09-27 19:54:08,841 INFO ========= The raft protocol is starting... =========
+
+2022-09-27 19:54:08,895 INFO ========= The raft protocol start finished... =========
+
+2022-09-27 19:54:08,926 INFO create raft group : naming_persistent_service_v2
+
+2022-09-27 19:54:10,214 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='null', term=null, raftClusterInfo=[192.168.111.1:7848]}
+
+2022-09-27 19:54:10,479 INFO create raft group : naming_instance_metadata
+
+2022-09-27 19:54:10,574 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='192.168.111.1:7848', term=6, raftClusterInfo=[192.168.111.1:7848]}
+
+2022-09-27 19:54:11,123 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='null', term=null, raftClusterInfo=[192.168.111.1:7848]}
+
+2022-09-27 19:54:11,291 INFO create raft group : naming_service_metadata
+
+2022-09-27 19:54:11,411 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='192.168.111.1:7848', term=6, raftClusterInfo=[192.168.111.1:7848]}
+
+2022-09-27 19:54:11,625 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_persistent_service_v2
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:631)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:524)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2022-09-27 19:54:12,140 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='null', term=null, raftClusterInfo=[192.168.111.1:7848]}
+
+2022-09-27 19:54:12,353 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='192.168.111.1:7848', term=6, raftClusterInfo=[192.168.111.1:7848]}
+
+2022-09-27 21:26:34,160 INFO Initializes the Raft protocol, raft-config info : {}
+
+2022-09-27 21:26:34,443 INFO ========= The raft protocol is starting... =========
+
+2022-09-27 21:26:34,530 INFO ========= The raft protocol start finished... =========
+
+2022-09-27 21:26:34,559 INFO create raft group : naming_persistent_service_v2
+
+2022-09-27 21:26:36,043 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='null', term=null, raftClusterInfo=[192.168.111.1:7848]}
+
+2022-09-27 21:26:36,323 INFO create raft group : naming_instance_metadata
+
+2022-09-27 21:26:36,495 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='192.168.111.1:7848', term=7, raftClusterInfo=[192.168.111.1:7848]}
+
+2022-09-27 21:26:37,426 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='null', term=null, raftClusterInfo=[192.168.111.1:7848]}
+
+2022-09-27 21:26:37,629 INFO create raft group : naming_service_metadata
+
+2022-09-27 21:26:37,775 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='192.168.111.1:7848', term=7, raftClusterInfo=[192.168.111.1:7848]}
+
+2022-09-27 21:26:38,613 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='null', term=null, raftClusterInfo=[192.168.111.1:7848]}
+
+2022-09-27 21:26:38,967 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='192.168.111.1:7848', term=7, raftClusterInfo=[192.168.111.1:7848]}
+

@@ -1,0 +1,316 @@
+2022-09-27 08:01:09,561 INFO [PUSH-SUCC] 667ms, all delay time 1274ms for subscriber 192.168.111.1, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-gateway', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2022-09-27 08:01:10,978 INFO [PUSH-SUCC] 14ms, all delay time 527ms, SLA 528ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-gateway', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=192.168.111.1
+
+2022-09-27 08:01:13,005 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-code', ephemeral=true, revision=1}
+
+2022-09-27 08:01:13,353 INFO [PUSH-SUCC] 17ms, all delay time 598ms, SLA 348ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-code', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=192.168.111.1
+
+2022-09-27 08:01:16,640 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-user', ephemeral=true, revision=1}
+
+2022-09-27 08:01:17,153 INFO [PUSH-SUCC] 19ms, all delay time 558ms, SLA 513ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-user', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=192.168.111.1
+
+2022-09-27 08:01:38,953 INFO [PUSH-SUCC] 9ms, all delay time 510ms for subscriber 192.168.111.1, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-user', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2022-09-27 08:01:38,956 INFO [PUSH-SUCC] 12ms, all delay time 513ms for subscriber 192.168.111.1, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-code', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2022-09-27 08:55:36,477 INFO [PUSH-SUCC] 5ms, all delay time 565ms, SLA 565ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-user', ephemeral=true, revision=2}, originalSize=0, DataSize=0, target=192.168.111.1
+
+2022-09-27 08:55:40,251 INFO [PUSH-SUCC] 6ms, all delay time 509ms, SLA 509ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-code', ephemeral=true, revision=2}, originalSize=0, DataSize=0, target=192.168.111.1
+
+2022-09-27 08:55:45,104 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-code', ephemeral=true, revision=3}
+
+2022-09-27 08:55:45,502 INFO [PUSH-SUCC] 4ms, all delay time 523ms, SLA 398ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-code', ephemeral=true, revision=3}, originalSize=1, DataSize=1, target=192.168.111.1
+
+2022-09-27 08:55:45,502 INFO [PUSH-SUCC] 4ms, all delay time 523ms, SLA 398ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-code', ephemeral=true, revision=3}, originalSize=1, DataSize=1, target=192.168.111.1
+
+2022-09-27 08:55:53,944 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-user', ephemeral=true, revision=3}
+
+2022-09-27 08:55:54,499 INFO [PUSH-SUCC] 4ms, all delay time 590ms, SLA 555ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-user', ephemeral=true, revision=3}, originalSize=1, DataSize=1, target=192.168.111.1
+
+2022-09-27 08:55:54,514 INFO [PUSH-SUCC] 19ms, all delay time 605ms, SLA 570ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-user', ephemeral=true, revision=3}, originalSize=1, DataSize=1, target=192.168.111.1
+
+2022-09-27 08:57:04,708 INFO [PUSH-SUCC] 7ms, all delay time 552ms, SLA 552ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-code', ephemeral=true, revision=4}, originalSize=0, DataSize=0, target=192.168.111.1
+
+2022-09-27 08:57:18,614 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-code', ephemeral=true, revision=5}
+
+2022-09-27 08:57:18,893 INFO [PUSH-SUCC] 4ms, all delay time 544ms, SLA 279ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-code', ephemeral=true, revision=5}, originalSize=1, DataSize=1, target=192.168.111.1
+
+2022-09-27 08:57:18,907 INFO [PUSH-SUCC] 18ms, all delay time 558ms, SLA 293ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-code', ephemeral=true, revision=5}, originalSize=1, DataSize=1, target=192.168.111.1
+
+2022-09-27 09:01:26,149 INFO [PUSH-SUCC] 14ms, all delay time 563ms for subscriber 192.168.111.1, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-gateway', ephemeral=true, revision=2}, originalSize=0, DataSize=0
+
+2022-09-27 09:01:26,243 INFO [PUSH-SUCC] 7ms, all delay time 543ms for subscriber 192.168.111.1, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-user', ephemeral=true, revision=4}, originalSize=0, DataSize=0
+
+2022-09-27 09:01:26,245 INFO [PUSH-SUCC] 9ms, all delay time 547ms for subscriber 192.168.111.1, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-code', ephemeral=true, revision=6}, originalSize=0, DataSize=0
+
+2022-09-27 09:01:27,336 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-user', ephemeral=true, revision=5}
+
+2022-09-27 09:01:27,857 INFO [PUSH-SUCC] 8ms, all delay time 556ms, SLA 521ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-user', ephemeral=true, revision=5}, originalSize=1, DataSize=1, target=192.168.111.1
+
+2022-09-27 09:01:27,873 INFO [PUSH-SUCC] 24ms, all delay time 572ms, SLA 537ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-user', ephemeral=true, revision=5}, originalSize=1, DataSize=1, target=192.168.111.1
+
+2022-09-27 09:01:28,563 INFO [PUSH-SUCC] 5ms, all delay time 535ms, SLA 535ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-gateway', ephemeral=true, revision=3}, originalSize=1, DataSize=1, target=192.168.111.1
+
+2022-09-27 09:01:30,243 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-code', ephemeral=true, revision=7}
+
+2022-09-27 09:01:30,485 INFO [PUSH-SUCC] 3ms, all delay time 538ms, SLA 242ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-code', ephemeral=true, revision=7}, originalSize=1, DataSize=1, target=192.168.111.1
+
+2022-09-27 09:01:30,500 INFO [PUSH-SUCC] 18ms, all delay time 553ms, SLA 257ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-code', ephemeral=true, revision=7}, originalSize=1, DataSize=1, target=192.168.111.1
+
+2022-09-27 10:07:38,838 INFO [PUSH-SUCC] 5ms, all delay time 516ms, SLA 517ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-user', ephemeral=true, revision=6}, originalSize=0, DataSize=0, target=192.168.111.1
+
+2022-09-27 10:07:42,766 INFO [PUSH-SUCC] 10ms, all delay time 518ms, SLA 518ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-code', ephemeral=true, revision=8}, originalSize=0, DataSize=0, target=192.168.111.1
+
+2022-09-27 10:07:47,378 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-code', ephemeral=true, revision=9}
+
+2022-09-27 10:07:47,876 INFO [PUSH-SUCC] 3ms, all delay time 594ms, SLA 498ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-code', ephemeral=true, revision=9}, originalSize=1, DataSize=1, target=192.168.111.1
+
+2022-09-27 10:07:47,876 INFO [PUSH-SUCC] 3ms, all delay time 594ms, SLA 498ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-code', ephemeral=true, revision=9}, originalSize=1, DataSize=1, target=192.168.111.1
+
+2022-09-27 10:07:48,965 INFO [PUSH-SUCC] 3ms, all delay time 566ms, SLA 566ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-code', ephemeral=true, revision=10}, originalSize=0, DataSize=0, target=192.168.111.1
+
+2022-09-27 10:07:48,965 INFO [PUSH-SUCC] 3ms, all delay time 566ms, SLA 566ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-code', ephemeral=true, revision=10}, originalSize=0, DataSize=0, target=192.168.111.1
+
+2022-09-27 10:07:52,499 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-code', ephemeral=true, revision=11}
+
+2022-09-27 10:07:52,986 INFO [PUSH-SUCC] 3ms, all delay time 558ms, SLA 487ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-code', ephemeral=true, revision=11}, originalSize=1, DataSize=1, target=192.168.111.1
+
+2022-09-27 10:07:52,987 INFO [PUSH-SUCC] 4ms, all delay time 559ms, SLA 488ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-code', ephemeral=true, revision=11}, originalSize=1, DataSize=1, target=192.168.111.1
+
+2022-09-27 10:07:55,897 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-user', ephemeral=true, revision=7}
+
+2022-09-27 10:07:56,470 INFO [PUSH-SUCC] 3ms, all delay time 607ms, SLA 573ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-user', ephemeral=true, revision=7}, originalSize=1, DataSize=1, target=192.168.111.1
+
+2022-09-27 10:07:56,483 INFO [PUSH-SUCC] 16ms, all delay time 620ms, SLA 586ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-user', ephemeral=true, revision=7}, originalSize=1, DataSize=1, target=192.168.111.1
+
+2022-09-27 16:12:36,413 INFO [PUSH-SUCC] 48ms, all delay time 558ms, SLA 559ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-code', ephemeral=true, revision=12}, originalSize=0, DataSize=0, target=192.168.111.1
+
+2022-09-27 16:12:42,048 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-common', ephemeral=true, revision=1}
+
+2022-09-27 16:12:42,576 INFO [PUSH-SUCC] 4ms, all delay time 544ms, SLA 527ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-common', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=192.168.111.1
+
+2022-09-27 16:13:02,475 INFO [PUSH-SUCC] 2ms, all delay time 597ms for subscriber 192.168.111.1, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-common', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2022-09-27 16:57:32,176 INFO [PUSH-SUCC] 5ms, all delay time 599ms, SLA 599ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-user', ephemeral=true, revision=8}, originalSize=0, DataSize=0, target=192.168.111.1
+
+2022-09-27 16:57:37,331 INFO [PUSH-SUCC] 5ms, all delay time 577ms, SLA 578ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-common', ephemeral=true, revision=2}, originalSize=0, DataSize=0, target=192.168.111.1
+
+2022-09-27 16:57:42,157 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-common', ephemeral=true, revision=3}
+
+2022-09-27 16:57:42,692 INFO [PUSH-SUCC] 3ms, all delay time 545ms, SLA 535ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-common', ephemeral=true, revision=3}, originalSize=1, DataSize=1, target=192.168.111.1
+
+2022-09-27 16:57:42,927 INFO [PUSH-SUCC] 238ms, all delay time 780ms, SLA 770ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-common', ephemeral=true, revision=3}, originalSize=1, DataSize=1, target=192.168.111.1
+
+2022-09-27 16:57:52,665 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-user', ephemeral=true, revision=9}
+
+2022-09-27 16:57:53,219 INFO [PUSH-SUCC] 4ms, all delay time 590ms, SLA 554ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-user', ephemeral=true, revision=9}, originalSize=1, DataSize=1, target=192.168.111.1
+
+2022-09-27 16:57:53,253 INFO [PUSH-SUCC] 38ms, all delay time 624ms, SLA 588ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-user', ephemeral=true, revision=9}, originalSize=1, DataSize=1, target=192.168.111.1
+
+2022-09-27 19:54:27,593 INFO [PUSH-SUCC] 1058ms, all delay time 1618ms for subscriber 192.168.111.1, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-gateway', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2022-09-27 19:54:29,993 INFO [PUSH-SUCC] 15ms, all delay time 617ms, SLA 618ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-gateway', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=192.168.111.1
+
+2022-09-27 19:54:34,152 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-code', ephemeral=true, revision=1}
+
+2022-09-27 19:54:34,254 INFO [PUSH-SUCC] 21ms, all delay time 554ms, SLA 101ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-code', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=192.168.111.1
+
+2022-09-27 19:54:56,686 INFO [PUSH-SUCC] 5ms, all delay time 557ms for subscriber 192.168.111.1, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-code', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2022-09-27 21:27:00,248 INFO [PUSH-SUCC] 865ms, all delay time 1435ms for subscriber 192.168.111.1, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-gateway', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2022-09-27 21:27:01,830 INFO [PUSH-SUCC] 19ms, all delay time 534ms, SLA 534ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-gateway', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=192.168.111.1
+
+2022-09-27 21:27:03,452 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-code', ephemeral=true, revision=1}
+
+2022-09-27 21:27:03,748 INFO [PUSH-SUCC] 16ms, all delay time 575ms, SLA 297ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-code', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=192.168.111.1
+
+2022-09-27 21:27:29,532 INFO [PUSH-SUCC] 3ms, all delay time 557ms for subscriber 192.168.111.1, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-code', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2022-09-27 21:28:22,560 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-user', ephemeral=true, revision=1}
+
+2022-09-27 21:28:23,135 INFO [PUSH-SUCC] 16ms, all delay time 620ms, SLA 575ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-user', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=192.168.111.1
+
+2022-09-27 21:28:29,542 INFO [PUSH-SUCC] 2ms, all delay time 562ms for subscriber 192.168.111.1, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-user', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2022-09-27 21:37:59,543 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-log', ephemeral=true, revision=1}
+
+2022-09-27 21:38:00,042 INFO [PUSH-SUCC] 19ms, all delay time 543ms, SLA 499ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-log', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=192.168.111.1
+
+2022-09-27 21:38:29,679 INFO [PUSH-SUCC] 3ms, all delay time 517ms for subscriber 192.168.111.1, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-log', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2022-09-27 21:39:02,669 INFO [PUSH-SUCC] 4ms, all delay time 593ms, SLA 593ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-user', ephemeral=true, revision=2}, originalSize=0, DataSize=0, target=192.168.111.1
+
+2022-09-27 21:40:43,740 INFO [PUSH-SUCC] 14ms, all delay time 563ms for subscriber 192.168.111.1, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-gateway', ephemeral=true, revision=2}, originalSize=0, DataSize=0
+
+2022-09-27 21:40:43,838 INFO [PUSH-SUCC] 4ms, all delay time 561ms for subscriber 192.168.111.1, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-code', ephemeral=true, revision=2}, originalSize=0, DataSize=0
+
+2022-09-27 21:40:43,841 INFO [PUSH-SUCC] 7ms, all delay time 564ms for subscriber 192.168.111.1, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-log', ephemeral=true, revision=2}, originalSize=0, DataSize=0
+
+2022-09-27 21:40:47,171 INFO [PUSH-SUCC] 9ms, all delay time 535ms, SLA 535ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-gateway', ephemeral=true, revision=3}, originalSize=1, DataSize=1, target=192.168.111.1
+
+2022-09-27 21:40:56,096 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-code', ephemeral=true, revision=3}
+
+2022-09-27 21:40:56,214 INFO [PUSH-SUCC] 7ms, all delay time 568ms, SLA 118ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-code', ephemeral=true, revision=3}, originalSize=1, DataSize=1, target=192.168.111.1
+
+2022-09-27 21:40:56,232 INFO [PUSH-SUCC] 25ms, all delay time 586ms, SLA 136ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-code', ephemeral=true, revision=3}, originalSize=1, DataSize=1, target=192.168.111.1
+
+2022-09-27 21:41:06,350 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-log', ephemeral=true, revision=3}
+
+2022-09-27 21:41:06,925 INFO [PUSH-SUCC] 4ms, all delay time 607ms, SLA 575ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-log', ephemeral=true, revision=3}, originalSize=1, DataSize=1, target=192.168.111.1
+
+2022-09-27 21:41:06,936 INFO [PUSH-SUCC] 16ms, all delay time 618ms, SLA 586ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-log', ephemeral=true, revision=3}, originalSize=1, DataSize=1, target=192.168.111.1
+
+2022-09-27 21:44:15,909 INFO [PUSH-SUCC] 2ms, all delay time 571ms for subscriber 192.168.111.1, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-user', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2022-09-27 21:45:34,149 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-user', ephemeral=true, revision=1}
+
+2022-09-27 21:45:34,699 INFO [PUSH-SUCC] 5ms, all delay time 580ms, SLA 551ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-user', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=192.168.111.1
+
+2022-09-27 21:45:34,711 INFO [PUSH-SUCC] 17ms, all delay time 592ms, SLA 563ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-user', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=192.168.111.1
+
+2022-09-27 21:46:05,154 INFO [PUSH-SUCC] 3ms, all delay time 576ms, SLA 576ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-log', ephemeral=true, revision=4}, originalSize=0, DataSize=0, target=192.168.111.1
+
+2022-09-27 21:46:09,753 INFO [PUSH-SUCC] 3ms, all delay time 595ms, SLA 595ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-user', ephemeral=true, revision=2}, originalSize=0, DataSize=0, target=192.168.111.1
+
+2022-09-27 21:46:18,337 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-log', ephemeral=true, revision=5}
+
+2022-09-27 21:46:18,863 INFO [PUSH-SUCC] 3ms, all delay time 564ms, SLA 526ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-log', ephemeral=true, revision=5}, originalSize=1, DataSize=1, target=192.168.111.1
+
+2022-09-27 21:46:18,878 INFO [PUSH-SUCC] 18ms, all delay time 579ms, SLA 541ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-log', ephemeral=true, revision=5}, originalSize=1, DataSize=1, target=192.168.111.1
+
+2022-09-27 21:50:03,218 INFO [PUSH-SUCC] 3ms, all delay time 596ms, SLA 596ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-log', ephemeral=true, revision=6}, originalSize=0, DataSize=0, target=192.168.111.1
+
+2022-09-27 21:50:17,265 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-log', ephemeral=true, revision=7}
+
+2022-09-27 21:50:17,777 INFO [PUSH-SUCC] 5ms, all delay time 548ms, SLA 512ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-log', ephemeral=true, revision=7}, originalSize=1, DataSize=1, target=192.168.111.1
+
+2022-09-27 21:50:17,800 INFO [PUSH-SUCC] 28ms, all delay time 571ms, SLA 535ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-log', ephemeral=true, revision=7}, originalSize=1, DataSize=1, target=192.168.111.1
+
+2022-09-27 21:52:31,985 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-user', ephemeral=true, revision=1}
+
+2022-09-27 21:52:32,554 INFO [PUSH-SUCC] 3ms, all delay time 606ms, SLA 569ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-user', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=192.168.111.1
+
+2022-09-27 21:52:32,567 INFO [PUSH-SUCC] 16ms, all delay time 619ms, SLA 582ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-user', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=192.168.111.1
+
+2022-09-27 21:53:26,931 INFO [PUSH-SUCC] 3ms, all delay time 584ms, SLA 584ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-user', ephemeral=true, revision=2}, originalSize=0, DataSize=0, target=192.168.111.1
+
+2022-09-27 21:53:39,765 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-user', ephemeral=true, revision=3}
+
+2022-09-27 21:53:40,332 INFO [PUSH-SUCC] 4ms, all delay time 596ms, SLA 567ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-user', ephemeral=true, revision=3}, originalSize=1, DataSize=1, target=192.168.111.1
+
+2022-09-27 21:53:40,341 INFO [PUSH-SUCC] 13ms, all delay time 605ms, SLA 576ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-user', ephemeral=true, revision=3}, originalSize=1, DataSize=1, target=192.168.111.1
+
+2022-09-27 21:57:07,466 INFO [PUSH-SUCC] 3ms, all delay time 517ms, SLA 517ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-user', ephemeral=true, revision=4}, originalSize=0, DataSize=0, target=192.168.111.1
+
+2022-09-27 22:07:12,538 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-user', ephemeral=true, revision=1}
+
+2022-09-27 22:07:13,072 INFO [PUSH-SUCC] 3ms, all delay time 587ms, SLA 534ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-user', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=192.168.111.1
+
+2022-09-27 22:07:13,087 INFO [PUSH-SUCC] 18ms, all delay time 602ms, SLA 549ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-user', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=192.168.111.1
+
+2022-09-27 22:07:17,568 INFO [PUSH-SUCC] 2ms, all delay time 513ms, SLA 513ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-log', ephemeral=true, revision=8}, originalSize=0, DataSize=0, target=192.168.111.1
+
+2022-09-27 22:07:30,751 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-log', ephemeral=true, revision=9}
+
+2022-09-27 22:07:31,264 INFO [PUSH-SUCC] 3ms, all delay time 547ms, SLA 513ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-log', ephemeral=true, revision=9}, originalSize=1, DataSize=1, target=192.168.111.1
+
+2022-09-27 22:07:31,274 INFO [PUSH-SUCC] 13ms, all delay time 557ms, SLA 523ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-log', ephemeral=true, revision=9}, originalSize=1, DataSize=1, target=192.168.111.1
+
+2022-09-27 22:07:37,562 INFO [PUSH-SUCC] 3ms, all delay time 598ms for subscriber 192.168.111.1, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-log', ephemeral=true, revision=9}, originalSize=1, DataSize=1
+
+2022-09-27 22:11:03,699 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-log', ephemeral=true, revision=10}
+
+2022-09-27 22:11:03,738 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-log', ephemeral=true, revision=11}
+
+2022-09-27 22:11:04,065 INFO [PUSH-SUCC] 17ms, all delay time 549ms for subscriber 192.168.111.1, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-gateway', ephemeral=true, revision=4}, originalSize=0, DataSize=0
+
+2022-09-27 22:11:04,162 INFO [PUSH-SUCC] 8ms, all delay time 556ms for subscriber 192.168.111.1, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-code', ephemeral=true, revision=4}, originalSize=0, DataSize=0
+
+2022-09-27 22:11:04,164 INFO [PUSH-SUCC] 10ms, all delay time 558ms for subscriber 192.168.111.1, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-user', ephemeral=true, revision=2}, originalSize=0, DataSize=0
+
+2022-09-27 22:11:04,173 INFO [PUSH-SUCC] 17ms, all delay time 567ms, SLA 435ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-log', ephemeral=true, revision=11}, originalSize=1, DataSize=1, target=192.168.111.1
+
+2022-09-27 22:11:04,179 INFO [PUSH-SUCC] 21ms, all delay time 573ms, SLA 441ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-log', ephemeral=true, revision=11}, originalSize=1, DataSize=1, target=192.168.111.1
+
+2022-09-27 22:11:06,840 INFO [PUSH-SUCC] 6ms, all delay time 527ms, SLA 527ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-gateway', ephemeral=true, revision=5}, originalSize=1, DataSize=1, target=192.168.111.1
+
+2022-09-27 22:11:08,594 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-code', ephemeral=true, revision=5}
+
+2022-09-27 22:11:08,869 INFO [PUSH-SUCC] 4ms, all delay time 548ms, SLA 275ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-code', ephemeral=true, revision=5}, originalSize=1, DataSize=1, target=192.168.111.1
+
+2022-09-27 22:11:08,886 INFO [PUSH-SUCC] 21ms, all delay time 565ms, SLA 292ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-code', ephemeral=true, revision=5}, originalSize=1, DataSize=1, target=192.168.111.1
+
+2022-09-27 22:11:12,719 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-user', ephemeral=true, revision=3}
+
+2022-09-27 22:11:13,252 INFO [PUSH-SUCC] 6ms, all delay time 583ms, SLA 533ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-user', ephemeral=true, revision=3}, originalSize=1, DataSize=1, target=192.168.111.1
+
+2022-09-27 22:11:13,266 INFO [PUSH-SUCC] 20ms, all delay time 597ms, SLA 547ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-user', ephemeral=true, revision=3}, originalSize=1, DataSize=1, target=192.168.111.1
+
+2022-09-27 22:16:36,341 INFO [PUSH-SUCC] 3ms, all delay time 586ms, SLA 586ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-user', ephemeral=true, revision=4}, originalSize=0, DataSize=0, target=192.168.111.1
+
+2022-09-27 22:16:52,230 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-user', ephemeral=true, revision=5}
+
+2022-09-27 22:16:52,712 INFO [PUSH-SUCC] 4ms, all delay time 519ms, SLA 482ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-user', ephemeral=true, revision=5}, originalSize=1, DataSize=1, target=192.168.111.1
+
+2022-09-27 22:16:52,726 INFO [PUSH-SUCC] 18ms, all delay time 533ms, SLA 496ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-user', ephemeral=true, revision=5}, originalSize=1, DataSize=1, target=192.168.111.1
+
+2022-09-27 22:17:09,808 INFO [PUSH-SUCC] 3ms, all delay time 604ms for subscriber 192.168.111.1, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-log', ephemeral=true, revision=11}, originalSize=1, DataSize=1
+
+2022-09-27 22:17:48,317 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-log', ephemeral=true, revision=13}
+
+2022-09-27 22:17:48,825 INFO [PUSH-SUCC] 15ms, all delay time 545ms, SLA 509ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-log', ephemeral=true, revision=13}, originalSize=1, DataSize=1, target=192.168.111.1
+
+2022-09-27 22:17:50,271 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-code', ephemeral=true, revision=7}
+
+2022-09-27 22:17:50,441 INFO [PUSH-SUCC] 27ms, all delay time 541ms, SLA 170ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-code', ephemeral=true, revision=7}, originalSize=1, DataSize=1, target=192.168.111.1
+
+2022-09-27 22:17:50,962 INFO [PUSH-SUCC] 12ms, all delay time 555ms for subscriber 192.168.111.1, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-gateway', ephemeral=true, revision=6}, originalSize=0, DataSize=0
+
+2022-09-27 22:17:51,060 INFO [PUSH-SUCC] 4ms, all delay time 551ms for subscriber 192.168.111.1, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-user', ephemeral=true, revision=6}, originalSize=0, DataSize=0
+
+2022-09-27 22:17:51,063 INFO [PUSH-SUCC] 6ms, all delay time 554ms for subscriber 192.168.111.1, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-log', ephemeral=true, revision=13}, originalSize=1, DataSize=1
+
+2022-09-27 22:17:51,066 INFO [PUSH-SUCC] 10ms, all delay time 557ms for subscriber 192.168.111.1, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-code', ephemeral=true, revision=7}, originalSize=1, DataSize=1
+
+2022-09-27 22:17:53,629 INFO [PUSH-SUCC] 11ms, all delay time 521ms, SLA 521ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-gateway', ephemeral=true, revision=7}, originalSize=1, DataSize=1, target=192.168.111.1
+
+2022-09-27 22:17:57,354 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-user', ephemeral=true, revision=7}
+
+2022-09-27 22:17:57,903 INFO [PUSH-SUCC] 3ms, all delay time 581ms, SLA 549ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-user', ephemeral=true, revision=7}, originalSize=1, DataSize=1, target=192.168.111.1
+
+2022-09-27 22:17:57,915 INFO [PUSH-SUCC] 15ms, all delay time 593ms, SLA 561ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-user', ephemeral=true, revision=7}, originalSize=1, DataSize=1, target=192.168.111.1
+
+2022-09-27 22:20:12,245 INFO [PUSH-SUCC] 17ms, all delay time 527ms for subscriber 192.168.111.1, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-user', ephemeral=true, revision=8}, originalSize=0, DataSize=0
+
+2022-09-27 22:20:12,247 INFO [PUSH-SUCC] 19ms, all delay time 622ms for subscriber 192.168.111.1, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-gateway', ephemeral=true, revision=8}, originalSize=0, DataSize=0
+
+2022-09-27 22:20:12,249 INFO [PUSH-SUCC] 21ms, all delay time 531ms for subscriber 192.168.111.1, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-log', ephemeral=true, revision=14}, originalSize=0, DataSize=0
+
+2022-09-27 22:20:12,252 INFO [PUSH-SUCC] 24ms, all delay time 534ms for subscriber 192.168.111.1, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-code', ephemeral=true, revision=8}, originalSize=0, DataSize=0
+
+2022-09-27 22:20:15,353 INFO [PUSH-SUCC] 10ms, all delay time 578ms, SLA 578ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-gateway', ephemeral=true, revision=9}, originalSize=1, DataSize=1, target=192.168.111.1
+
+2022-09-27 22:20:17,161 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-code', ephemeral=true, revision=9}
+
+2022-09-27 22:20:17,380 INFO [PUSH-SUCC] 5ms, all delay time 505ms, SLA 219ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-code', ephemeral=true, revision=9}, originalSize=1, DataSize=1, target=192.168.111.1
+
+2022-09-27 22:20:17,400 INFO [PUSH-SUCC] 25ms, all delay time 525ms, SLA 239ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-code', ephemeral=true, revision=9}, originalSize=1, DataSize=1, target=192.168.111.1
+
+2022-09-27 22:20:24,148 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-log', ephemeral=true, revision=15}
+
+2022-09-27 22:20:24,256 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-user', ephemeral=true, revision=9}
+
+2022-09-27 22:20:24,655 INFO [PUSH-SUCC] 5ms, all delay time 553ms, SLA 507ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-log', ephemeral=true, revision=15}, originalSize=1, DataSize=1, target=192.168.111.1
+
+2022-09-27 22:20:24,670 INFO [PUSH-SUCC] 20ms, all delay time 568ms, SLA 522ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-log', ephemeral=true, revision=15}, originalSize=1, DataSize=1, target=192.168.111.1
+
+2022-09-27 22:20:24,767 INFO [PUSH-SUCC] 8ms, all delay time 558ms, SLA 511ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-user', ephemeral=true, revision=9}, originalSize=1, DataSize=1, target=192.168.111.1
+
+2022-09-27 22:20:24,788 INFO [PUSH-SUCC] 29ms, all delay time 579ms, SLA 532ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-user', ephemeral=true, revision=9}, originalSize=1, DataSize=1, target=192.168.111.1
+
+2022-09-27 22:24:39,169 INFO [PUSH-SUCC] 3ms, all delay time 563ms for subscriber 192.168.111.1, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-log', ephemeral=true, revision=15}, originalSize=1, DataSize=1
+
+2022-09-27 22:26:43,642 INFO [PUSH-SUCC] 2ms, all delay time 505ms, SLA 505ms, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-code', ephemeral=true, revision=10}, originalSize=0, DataSize=0, target=192.168.111.1
+

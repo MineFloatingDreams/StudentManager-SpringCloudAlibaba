@@ -1,0 +1,108 @@
+2022-09-23 15:06:28,709 WARN naming.distro config will be removed, please use core.protocol.distro replace.
+
+2022-09-23 15:06:28,709 WARN Using naming.distro config to replace core.distro config
+
+2022-09-23 15:06:28,845 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2022-09-23 15:06:28,847 INFO listen for service meta change
+
+2022-09-23 15:06:28,854 INFO upgrade.state file is not exist
+
+2022-09-23 15:06:42,858 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2022-09-23 15:06:42,858 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2022-09-23 15:06:42,859 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2022-09-23 15:06:42,859 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2022-09-23 15:06:46,032 INFO Load instance extension handler []
+
+2022-09-23 15:18:24,790 WARN [NamingServerHttpClientManager] Start destroying HTTP-Client
+
+2022-09-23 15:18:24,798 WARN [NamingServerHttpClientManager] Destruction of the end
+
+2022-09-23 15:18:25,177 ERROR [HEALTH-CHECK-V2] error while processing NIO task
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)
+	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor.processTask(TcpHealthCheckProcessor.java:122)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor.run(TcpHealthCheckProcessor.java:139)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2022-09-23 15:18:25,177 ERROR [HEALTH-CHECK] error while processing NIO task
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)
+	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+	at com.alibaba.nacos.naming.healthcheck.TcpSuperSenseProcessor.processTask(TcpSuperSenseProcessor.java:137)
+	at com.alibaba.nacos.naming.healthcheck.TcpSuperSenseProcessor.run(TcpSuperSenseProcessor.java:154)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2022-09-23 15:18:38,192 WARN naming.distro config will be removed, please use core.protocol.distro replace.
+
+2022-09-23 15:18:38,192 WARN Using naming.distro config to replace core.distro config
+
+2022-09-23 15:18:38,305 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2022-09-23 15:18:38,306 INFO listen for service meta change
+
+2022-09-23 15:18:44,477 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2022-09-23 15:18:44,477 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2022-09-23 15:18:44,477 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2022-09-23 15:18:44,477 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2022-09-23 15:18:47,599 INFO Load instance extension handler []
+
+2022-09-23 15:23:14,919 INFO Client connection 1663917786334_127.0.0.1_60908 disconnect, remove instances and subscribers
+
+2022-09-23 16:41:26,021 INFO Client connection 1663922485185_127.0.0.1_59698 disconnect, remove instances and subscribers
+
+2022-09-23 16:41:45,572 INFO Client connection 1663922504763_127.0.0.1_50573 disconnect, remove instances and subscribers
+
+2022-09-23 16:43:25,945 INFO Client connection 1663922597109_127.0.0.1_55002 disconnect, remove instances and subscribers
+
+2022-09-23 16:45:14,275 INFO Client connection 1663922705467_127.0.0.1_60434 disconnect, remove instances and subscribers
+
+2022-09-23 16:47:04,033 INFO Client connection 1663922824015_127.0.0.1_60457 connect
+
+2022-09-23 16:47:05,147 INFO Client connection 1663922824015_127.0.0.1_60457 disconnect, remove instances and subscribers
+
+2022-09-23 16:47:05,745 INFO Client connection 1663922811307_127.0.0.1_60422 disconnect, remove instances and subscribers
+
+2022-09-23 16:50:39,635 INFO Client connection 1663923039630_127.0.0.1_56809 connect
+
+2022-09-23 16:50:40,754 INFO Client connection 1663923039630_127.0.0.1_56809 disconnect, remove instances and subscribers
+
+2022-09-23 16:50:41,273 INFO Client connection 1663923028300_127.0.0.1_56790 disconnect, remove instances and subscribers
+
+2022-09-23 16:59:10,106 INFO Client connection 1663923550098_127.0.0.1_60656 connect
+
+2022-09-23 16:59:11,226 INFO Client connection 1663923550098_127.0.0.1_60656 disconnect, remove instances and subscribers
+
+2022-09-23 16:59:11,742 INFO Client connection 1663923538606_127.0.0.1_60633 disconnect, remove instances and subscribers
+
+2022-09-23 17:00:10,470 INFO Client connection 1663923610465_127.0.0.1_55270 connect
+
+2022-09-23 17:00:11,600 INFO Client connection 1663923610465_127.0.0.1_55270 disconnect, remove instances and subscribers
+
+2022-09-23 17:00:12,128 INFO Client connection 1663923598631_127.0.0.1_60760 disconnect, remove instances and subscribers
+
+2022-09-23 17:01:02,691 INFO Client connection 1663923662686_127.0.0.1_53933 connect
+
+2022-09-23 17:01:03,809 INFO Client connection 1663923662686_127.0.0.1_53933 disconnect, remove instances and subscribers
+
+2022-09-23 17:01:04,326 INFO Client connection 1663923651383_127.0.0.1_53865 disconnect, remove instances and subscribers
+

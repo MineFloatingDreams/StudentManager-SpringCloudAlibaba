@@ -1,0 +1,38 @@
+2022-09-29 08:03:37,361 INFO Initializes the Raft protocol, raft-config info : {}
+
+2022-09-29 08:03:38,050 INFO ========= The raft protocol is starting... =========
+
+2022-09-29 08:03:38,156 INFO ========= The raft protocol start finished... =========
+
+2022-09-29 08:03:38,184 INFO create raft group : naming_persistent_service_v2
+
+2022-09-29 08:03:41,647 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='null', term=null, raftClusterInfo=[192.168.111.1:7848]}
+
+2022-09-29 08:03:42,144 INFO create raft group : naming_instance_metadata
+
+2022-09-29 08:03:42,365 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='192.168.111.1:7848', term=9, raftClusterInfo=[192.168.111.1:7848]}
+
+2022-09-29 08:03:43,477 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_persistent_service_v2
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:631)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:524)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2022-09-29 08:03:44,076 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='null', term=null, raftClusterInfo=[192.168.111.1:7848]}
+
+2022-09-29 08:03:44,625 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='192.168.111.1:7848', term=9, raftClusterInfo=[192.168.111.1:7848]}
+
+2022-09-29 08:03:44,625 INFO create raft group : naming_service_metadata
+
+2022-09-29 08:03:46,281 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='null', term=null, raftClusterInfo=[192.168.111.1:7848]}
+
+2022-09-29 08:03:46,906 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='192.168.111.1:7848', term=9, raftClusterInfo=[192.168.111.1:7848]}
+

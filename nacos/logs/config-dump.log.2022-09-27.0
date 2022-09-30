@@ -1,0 +1,30 @@
+2022-09-27 08:00:29,276 INFO [dump-all-ok] spring-cloud-modules-user-dev.yaml+DEFAULT_GROUP, 1664172169478, length=671, md5=402dae8fcdb56f0742490a2626eff6f6
+
+2022-09-27 08:00:29,277 INFO [dump-all-ok] spring-cloud-modules-code-dev.yaml+DEFAULT_GROUP, 1664174951567, length=363, md5=ed323594c8e6fbe75a77f1798108a66f
+
+2022-09-27 08:00:29,277 INFO [dump-all-ok] spring-cloud-gateway-dev.yaml+DEFAULT_GROUP, 1664200266239, length=873, md5=b4691fc138db9927ecd6ef677990f859
+
+2022-09-27 16:26:27,752 INFO [dump-task] add task. groupKey=spring-cloud-modules-log-dev.yaml+DEFAULT_GROUP, taskKey=spring-cloud-modules-log-dev.yaml+DEFAULT_GROUP++false+null
+
+2022-09-27 16:26:40,230 INFO [dump-task] add task. groupKey=spring-cloud-modules-log-dev.yaml+DEFAULT_GROUP, taskKey=spring-cloud-modules-log-dev.yaml+DEFAULT_GROUP++false+null
+
+2022-09-27 16:44:59,880 INFO [dump-task] add task. groupKey=spring-cloud-gateway-dev.yaml+DEFAULT_GROUP, taskKey=spring-cloud-gateway-dev.yaml+DEFAULT_GROUP++false+null
+
+2022-09-27 19:54:03,360 INFO [dump-all-ok] spring-cloud-modules-user-dev.yaml+DEFAULT_GROUP, 1664172169478, length=671, md5=402dae8fcdb56f0742490a2626eff6f6
+
+2022-09-27 19:54:03,360 INFO [dump-all-ok] spring-cloud-modules-code-dev.yaml+DEFAULT_GROUP, 1664174951567, length=363, md5=ed323594c8e6fbe75a77f1798108a66f
+
+2022-09-27 19:54:03,366 INFO [dump-all-ok] spring-cloud-gateway-dev.yaml+DEFAULT_GROUP, 1664268299858, length=1004, md5=84dc49743ecec9131e3bb67371b468ef
+
+2022-09-27 19:54:03,367 INFO [dump-all-ok] spring-cloud-modules-log-dev.yaml+DEFAULT_GROUP, 1664267200088, length=285, md5=df1ac79edb843f932bb73ec434f3aa8d
+
+2022-09-27 21:26:31,255 INFO [dump-all-ok] spring-cloud-modules-user-dev.yaml+DEFAULT_GROUP, 1664172169478, length=671, md5=402dae8fcdb56f0742490a2626eff6f6
+
+2022-09-27 21:26:31,256 INFO [dump-all-ok] spring-cloud-modules-code-dev.yaml+DEFAULT_GROUP, 1664174951567, length=363, md5=ed323594c8e6fbe75a77f1798108a66f
+
+2022-09-27 21:26:31,256 INFO [dump-all-ok] spring-cloud-gateway-dev.yaml+DEFAULT_GROUP, 1664268299858, length=1004, md5=84dc49743ecec9131e3bb67371b468ef
+
+2022-09-27 21:26:31,256 INFO [dump-all-ok] spring-cloud-modules-log-dev.yaml+DEFAULT_GROUP, 1664267200088, length=285, md5=df1ac79edb843f932bb73ec434f3aa8d
+
+2022-09-27 21:35:34,167 INFO [dump-task] add task. groupKey=spring-cloud-modules-log-dev.yaml+DEFAULT_GROUP, taskKey=spring-cloud-modules-log-dev.yaml+DEFAULT_GROUP++false+null
+

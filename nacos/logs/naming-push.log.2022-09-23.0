@@ -1,0 +1,10 @@
+2022-09-23 16:47:04,689 INFO [PUSH-SUCC] 21ms, all delay time 544ms for subscriber 192.168.111.1, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-user', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2022-09-23 16:50:40,266 INFO [PUSH-SUCC] 13ms, all delay time 524ms for subscriber 192.168.111.1, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-user', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2022-09-23 16:59:10,764 INFO [PUSH-SUCC] 14ms, all delay time 549ms for subscriber 192.168.111.1, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-user', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2022-09-23 17:00:11,186 INFO [PUSH-SUCC] 15ms, all delay time 600ms for subscriber 192.168.111.1, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-user', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2022-09-23 17:01:03,385 INFO [PUSH-SUCC] 18ms, all delay time 580ms for subscriber 192.168.111.1, Service{namespace='public', group='DEFAULT_GROUP', name='spring-cloud-modules-user', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
