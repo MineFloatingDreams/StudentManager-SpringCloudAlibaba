@@ -60,3 +60,5 @@ gen
 
 log
 target
+
+!nacos-server.jar
